@@ -1,0 +1,260 @@
+/**
+ * @Description: 山南建设局
+ * @author lzy
+ * @date 2019\8\12
+*/
+
+@charset "UTF-8";
+
+body {
+    min-width: 1200px;
+    background: url("../images/lfh_jsj_bg.png") top center no-repeat;
+}
+
+/*header*/
+.lfh-header {
+    width: 100%;
+    position: relative;
+    background: url("../images/lfh_jsj_nav.png") center 38px no-repeat;
+}
+
+.lfh-float-line{
+    position: absolute;
+    top:776px;
+    width: 100%;
+    height: 4px;
+    background-color: #e21f3f;
+    z-index: -10;
+}
+
+.lfh-h-top{
+    height: 38px;
+    box-sizing: border-box;
+    padding: 0 16px ;
+}
+
+.lfh-h-top p{
+    font-size: 12px;
+    line-height: 38px;
+    color: #444;
+}
+
+.lfh-h-nav{
+    height: 66px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.lfh-h-nav li {
+    height: 100%;
+    float: left;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.lfh-hcur,
+.lfh-h-nav li:hover{
+    background: #c61d39;
+}
+
+.lfh-h-nav li.last-li{
+    margin-right: 0;
+}
+
+.lfh-h-nav a{
+    height: 100%;
+    font-size: 20px;
+    line-height: 66px;
+    color: #fff;
+    padding: 0 30px 0 58px;
+    font-weight: 600;
+}
+
+.lfh-h-nav .lfh-a1{
+    background: url("../images/lfh_jsj_sy.png") 20px center no-repeat;
+}
+
+.lfh-h-nav .lfh-a2{
+    background: url("../images/lfh_jsj_xw.png") 20px center no-repeat;
+}
+
+.lfh-h-nav .lfh-a3{
+    background: url("../images/lfh_jsj_zw.png") 20px center no-repeat;
+}
+
+.lfh-h-nav .lfh-a4{
+    background: url("../images/lfh_jsj_bs.png") 20px center no-repeat;
+}
+
+.lfh-h-nav .lfh-a5{
+    background: url("../images/lfh_jsj_hd.png") 20px center no-repeat;
+}
+
+
+
+.lfh-hcur .lfh-a1,
+.lfh-h-nav li:hover .lfh-a1{
+    background: url("../images/lfh_jsj_sy1.png") 20px center no-repeat;
+}
+
+.lfh-hcur .lfh-a2,
+.lfh-h-nav li:hover .lfh-a2{
+    background: url("../images/lfh_jsj_xw1.png") 20px center no-repeat;
+}
+
+.lfh-hcur .lfh-a3,
+.lfh-h-nav li:hover .lfh-a3{
+    background: url("../images/lfh_jsj_zw1.png") 20px center no-repeat;
+}
+
+.lfh-hcur .lfh-a4,
+.lfh-h-nav li:hover .lfh-a4{
+    background: url("../images/lfh_jsj_bs1.png") 20px center no-repeat;
+}
+
+.lfh-hcur .lfh-a5,
+.lfh-h-nav li:hover .lfh-a5{
+    background: url("../images/lfh_jsj_hd1.png") 20px center no-repeat;
+}
+
+.lfh-h-logo{
+    width: 600px;
+    margin: 30px auto 45px;
+}
+
+.lfh-h-search{
+    height: 46px;
+    width: 582px;
+    box-sizing: border-box;
+    margin: 38px 9px 0;
+    border: 2px solid #e21f3f;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.lfh-h-search input{
+    width: 500px;
+    height: 100%;
+    padding: 9px 20px;
+    line-height: 24px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.lfh-h-search button{
+    width: 78px;
+    height: 100%;
+    background: url("../images/lfh_jsj_search.png") 40px center no-repeat;
+}
+
+.lfh-footer{
+    height: 252px;
+    margin-top: 30px;
+}
+
+.lfh-f-link{
+    height: 55px;
+    box-sizing: border-box;
+    padding: 14px 74px;
+    border-top: 2px solid #e21f3f;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.lfh-flink-firL {
+    float: left;
+    position: relative;
+    width: 261px;
+    height: 100%;
+    text-align: center;
+    background: url("../images/lfh_jsj_ficon1.png") right center no-repeat;
+    cursor: pointer;
+}
+
+.lfh-flink-firA{
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    background: url("../images/lfh_jsj_farr.png") right center no-repeat;
+}
+
+.lfh-flink-secU{
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 120px;
+    top: 38px;
+    background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.lfh-flink-secL{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: left;
+}
+
+.lfh-flink-secL a{
+    font-size: 15px;
+}
+
+.last-fli{
+    background: none;
+}
+
+.lfh-f-copyright{
+    margin-top: 30px;
+    background: #f6f6f6;
+}
+
+.lfh-f-wzdh{
+    width: 100%;
+    height: 45px;
+    background: #e21f3f;
+    text-align: center;
+    line-height: 45px;
+}
+
+.lfh-f-wzdh a{
+    padding: 0 21px;
+    font-size: 14px;
+    color: #fff;
+    background:url("../images/lfh_jsj_ficon2.png") right center no-repeat;
+}
+
+.lfh-f-wzdh .last-a{
+    background: none;
+}
+
+.lfh-f-bot{
+    box-sizing: border-box;
+    padding: 25px 25px 40px 35px;
+}
+
+.lfh-fb-left{
+    width: 44px;
+    height: 54px;
+    background: url("../images/lfh_jsj_fdz.png") no-repeat;
+}
+
+.lfh-fb-mid{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: #666;
+}
+
+.lfh-fb-right{
+    width: 108px;
+    height: 54px;
+    margin-top: -50px;
+    border: 1px solid #015293;
+    border-radius: 4px;
+    background: url("../images/lfh_jsj_fzc.jpg") no-repeat;
+}

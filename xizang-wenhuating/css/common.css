@@ -1,0 +1,202 @@
+@charset 'utf-8';
+/******样式清除******/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333
+}
+
+a,
+span {
+    vertical-align: top;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input,
+button,
+text {
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+input,
+textarea {
+    box-sizing: content-box;
+    outline: none;
+    background: 0 0;
+    font-family: "Microsoft YaHei"
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #999;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #999;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #999;
+}
+
+table tr td,
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+}
+
+.centerWidth{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*浮动*/
+.li-text a:hover {
+    color: #3b9be5;
+}
+
+.text-blod a:hover {
+    font-weight: bold;
+}
+
+.text-uline a:hover {
+    text-decoration: underline;
+}
+
+.a-uline:hover {
+    text-decoration: underline;
+}
+
+.pic:hover {
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+}
+
+.picL img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+}
+
+.iconD:hover {
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+}
+
+/*****通用样式******/
+
+/*清除浮动*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.db {
+    display: inline-block;
+}
+
+/*****边距调整****/
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr5 {
+    margin-right: 5px
+}
+
+.mr10 {
+    margin-right: 10px
+}

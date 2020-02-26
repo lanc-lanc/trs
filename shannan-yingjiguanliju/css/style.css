@@ -1,0 +1,455 @@
+/**
+ * @Description:
+ * @author lzy
+ * @date 2019\8\1 0001
+*/
+
+@charset "UTF-8";
+
+body {
+    min-width: 1200px;
+    background: #eef5fb;
+}
+
+/*header*/
+.lfh-header {
+    position: relative;
+    width: 100%;
+    height: 768px;
+    overflow: hidden;
+}
+
+.lfh-header .lfh-hbox {
+    position: relative;
+    width: 1200px;
+    height: 180px;
+    margin: 21px auto 0 auto;
+    background: url("../images/lfh_gl_bg.png") left top no-repeat;
+    z-index: 99;
+}
+
+.lfh-hbox .lfh-ht {
+    position: absolute;
+    width: 1540px;
+    height: 80px;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lfh-ht .lfh-logo {
+    width: 367px;
+    height: 80px;
+    margin-left: 20px;
+    background: url("../images/lfh_gl_tlogo.png") left center no-repeat;
+}
+
+/*导航栏*/
+.lfh-ht .lfh-nav {
+    margin-left: 277px;
+    height: 80px;
+    padding-top: 19px;
+    box-sizing: border-box;
+}
+
+.lfh-nav a {
+    width: 28px;
+    margin: 0 28px;
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.lfh-a1 {
+    background: url("../images/lfh_gl_tsy.png") center top no-repeat;
+}
+
+.lfh-a2 {
+    background: url("../images/lfh_gl_txw.png") center top no-repeat;
+}
+
+.lfh-a3 {
+    background: url("../images/lfh_gl_tzw.png") center top no-repeat;
+}
+
+.lfh-a4 {
+     background: url("../images/lfh_gl_tfw.png") center top no-repeat;
+}
+
+.lfh-a5 {
+      background: url("../images/lfh_gl_thd.png") center top no-repeat;
+}
+
+.lfh-a6 {
+       background: url("../images/lfh_gl_tdj.png") center top no-repeat;
+}
+
+.lfh-nav a:hover,
+.lfh-hcur {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #38404a;
+}
+.lfh-a1:hover,
+.lfh-a1.lfh-hcur {
+    background: url("../images/lfh_gl_tsy1.png") top center no-repeat;
+}
+
+.lfh-a2:hover,
+.lfh-a2.lfh-hcur {
+    background: url("../images/lfh_gl_txw1.png") top center no-repeat;
+}
+
+.lfh-a3:hover,
+.lfh-a3.lfh-hcur {
+    background: url("../images/lfh_gl_tzw1.png") top center no-repeat;
+}
+
+.lfh-a4:hover,
+.lfh-a4.lfh-hcur {
+    background: url("../images/lfh_gl_tfw1.png") top center no-repeat;
+}
+
+.lfh-a5:hover,
+.lfh-a5.lfh-hcur {
+    background: url("../images/lfh_gl_thd1.png") top center no-repeat;
+}
+
+.lfh-a6:hover,
+.lfh-a6.lfh-hcur {
+    background: url("../images/lfh_gl_tdj1.png") top center no-repeat;
+}
+
+/*搜索框*/
+.lfh-hbox .lfh-hSearch {
+    position: absolute;
+    width: 473px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background: url("../images/lfh_gl_tsearch.png") left center no-repeat;
+}
+
+.lfh-hSearch input {
+    width: 350px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.lfh-hbox .lfh-hicon {
+    width: 120px;
+    height: 30px;
+    margin-top: 110px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+.lfh-hicon a {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: 100% 100%;
+}
+
+.lfh-icon1 {
+    background: url("../images/lfh_gl_txl.png") center no-repeat;
+}
+
+.lfh-icon2 {
+    background: url("../images/lfh_gl_twx.png") center no-repeat;
+}
+
+.lfh-icon3 {
+    background: url("../images/lfh_gl_tph.png") center no-repeat;
+}
+
+.lfh-hicon a:hover {
+    background-size: 96% 96%;
+}
+
+/*背景轮播图*/
+.lfh-header .lfh-htimg {
+    position: absolute;
+    width: 1920px;
+    height: 768px;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -960px;
+    background-size: 100% 100%;
+}
+
+.lfh-htimg .lfh-timg {
+    width: 100%;
+    height: 100%;
+}
+
+.lfh-timg li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.lfh-htimg .lfh-tind {
+    position: absolute;
+    height: 20px;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    bottom: 20px;
+}
+
+.lfh-tind li {
+    width: 11px;
+    height: 11px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+li.lfh-tcur {
+    width: 19px;
+    height: 19px;
+    margin-top: -4px;
+    background: url("../images/lfh_sy_tind.png") left center no-repeat;
+}
+
+/*概览footer*/
+.lfh-footer {
+    width: 100%;
+    height: 280px;
+    margin-top: -75px;
+    background: #2b4174;
+}
+.lfh-footer .lfh-fbox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.lfh-fbox .lfh-flink {
+    width: 100%;
+    height: 38px;
+    padding-top: 95px;
+}
+
+.lfh-flink .lfh-flinks {
+    height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 38px;
+    color: #ffffff;
+    padding-left: 35px;
+    padding-right: 20px;
+    background: url("../images/lfh_gl_flink.png") left center no-repeat;
+}
+
+.lfh-flink .lfh-firU {
+    width: 1080px;
+    height: 100%;
+}
+
+.lfh-firU .lfh-firL {
+    float: left;
+    width: 250px;
+    height: 100%;
+    margin-left: 20px;
+    background: #3a5289;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.lfh-firL .lfh-flinka {
+    width: 214px;
+    height: 100%;
+    margin: 0 18px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #ffffff;
+    background: url("../images/lfh_gl_farr.png") right center no-repeat;
+}
+
+.lfh-flinka span {
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.lfh-firL .lfh-secU {
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 90px;
+    background: #3a5289;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.lfh-secU .lfh-secL {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.lfh-secL a {
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    margin: 0 18px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.lfh-secL a:hover {
+    color: #eef5fb;
+    font-weight: bold;
+}
+
+
+.lfh-fbox .lfh-copyright {
+    width: 1200px;
+    margin-top: 40px;
+}
+
+.lfh-copyright .lfh-fdz {
+    width: 52px;
+    height: 64px;
+    background: url("../images/lfh_gl_fdz.png") left center no-repeat;
+}
+
+.lfh-copyright .lfh-ftext {
+    margin-left: 20px;
+}
+
+.lfh-ftext .lfh-copU {
+    height: 20px;
+    margin-top: 3px;
+}
+
+.lfh-copU li {
+    display: inline-block;
+    width: 75px;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding-right: 5px;
+    background: url("../images/lfh_gl_fdot.png") right center no-repeat;
+}
+
+.lfh-copU li.lfh-copU-last {
+    background: none;
+}
+
+.lfh-copU a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.lfh-ftext p {
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #bec2cf;
+}
+
+p.lfh-firP {
+    margin-top: 2px;
+}
+
+.lfh-psecA {
+    margin-left: 20px;
+    padding-left: 23px;
+    background: url("../images/lfh_gl_ftb.png") left center no-repeat;
+}
+
+.lfh-psecA span {
+    color: #bec2cf;
+    cursor: text;
+
+}
+
+.lfh-copyright .lfh-fzc {
+    width: 110px;
+    height: 55px;
+    background: url("../images/lfh_gl_fzc.jpg") right top no-repeat;
+}
+
+
+
+/*首页footer*/
+.lfh-sy-footer {
+    height: 332px;
+    margin-top: 0;
+}
+
+.lfh-sy-footer .lfh-sy-flink {
+    width: 520px;
+    height: 135px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+.lfh-sy-flink .lfh-sy-flinks {
+    width: 100px;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 0;
+    margin: 0 auto;
+}
+
+.lfh-sy-flink .lfh-sy-firU {
+    width: 520px;
+}
+
+.lfh-sy-firU .lfh-sy-firL {
+    width: 255px;
+    height: 38px;
+}
+
+.lfh-sy-firU li.firL1,
+.lfh-sy-firU li.firL3 {
+    margin-left: 0;
+}
+
+.lfh-sy-firU li.firL2,
+.lfh-sy-firU li.firL4 {
+    margin-left: 10px;
+}
+
+.lfh-sy-firU li.firL3,
+.lfh-sy-firU li.firL4 {
+    margin-top: 10px;
+}
+
+.lfh-sy-firU .lfh-sy-secU {
+    width: 255px;
+}
+
+.lfh-sy-footer .lfh-sy-cp {
+    margin-top: 0;
+    padding-top: 175px;
+}
+
+
+/*概览*/
+body {
+    background: #eef5fb url("../images/lfh_gl_tbg.png") top no-repeat;
+}
+
+.lfh-gl {
+    height: 200px;
+}

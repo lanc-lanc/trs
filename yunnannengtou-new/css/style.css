@@ -1,0 +1,244 @@
+body{
+    min-width: 1200px;
+}
+.header {
+    position: relative;
+    height: 125px;
+    background: #fff;
+}
+.w-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: inline-block;
+    margin-right: 34px;
+    line-height: 125px;
+    height: 125px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu.cur {
+    background: #23ffda;
+}
+
+.menu img {
+    vertical-align: middle;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 34px;
+}
+.nav{
+    height: 125px;
+    line-height: 125px;
+}
+.nav a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 38px;
+    color: #212528;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.nav a.fir{
+    margin-left: 30px;
+}
+.nav a.cur,
+.nav a:hover{
+    font-weight: bold;
+}
+
+.search-box {
+    width: 128px;
+    height: 22px;
+    margin-top: 52px;
+    background: #eaeaea;
+}
+
+.search-box input {
+    height: 100%;
+    width: 90px;
+    padding: 0 10px;
+}
+
+.search-box button {
+    height: 100%;
+    background: none;
+}
+
+.menu-box {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 125px;
+    left: 0;
+    height: 500px;
+}
+
+.menu-box a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #23ffda;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.menu-box .list1,
+.menu-box .list2{
+    padding-top: 12px;
+    width: 160px;
+    height: 100%;
+}
+
+.menu-box .list1>li>a.plus {
+    background: url(../images/icon2.png) 130px center no-repeat;
+    background-size: 12px;
+}
+
+.menu-box ul {
+    background: #212528;
+}
+
+.menu-box ul li.cur,
+.menu-box ul li:hover {
+    background-color: #32393d;
+    background-image: url(../images/bg1.png);
+    background-size: .2rem 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.menu-box ul:nth-child(2n) {
+    background: #32393d;
+}
+
+.menu-box ul:nth-child(2n) li.cur,
+.menu-box ul:nth-child(2n) li:hover {
+    background-color: #212528;
+}
+
+.menu-box ul li.cur ul {
+    display: block;
+}
+
+.menu-box .list2 {
+    position: absolute;
+    top: 0;
+    left: 160px;
+}
+
+.menu-box .list2>li>a.plus {
+    background: url(../images/icon3.png) 130px center no-repeat;
+    background-size: 12px;
+}
+
+.menu-box .list3 {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    width: 160px;
+    height: 100%;
+}
+
+.main{
+	overflow-x: hidden;
+}
+
+
+/*底部*/
+
+.footer {
+    height: 340px;
+    background: #222222;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.f-content {
+    height: 96px;
+    padding-top: 66px;
+    padding-bottom: 34px;
+}
+
+.f-content .phone {
+    margin-top: 24px;
+    margin-right: 50px;
+}
+
+.f-content .f-help {
+    margin-top: 46px;
+}
+
+.f-content .f-help a {
+    font-size: 18px;
+    color: #00d0d7;
+}
+.f-content .f-help a:hover{
+    font-weight: bold;
+}
+.f-content .f-help span {
+    display: inline-block;
+    color: #808080;
+    font-size: 18px;
+    margin: 0 42px;
+}
+
+.f-drop {
+    width: 180px;
+    height: 23px;
+    background: #00d0d7;
+    margin-left: 100px;
+    margin-top: 46px;
+    position: relative;
+}
+
+.f-drop .tag {
+    padding-left: 6px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000;
+    background: url(../images/f-drop.png) 156px center no-repeat;
+    cursor: pointer;
+}
+
+.f-drop-l {
+    display: none;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background: #00d0d7;
+    width: 100%;
+}
+.f-drop-l li{
+    padding: 0 6px;
+    overflow: auto;
+}
+.f-drop-l li a{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.f-text {
+    margin: 0 auto;
+    border-top: 1px solid #747474;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.f-text p {
+    margin-bottom: 20px;
+}
+
+.f-text p span {
+    color: #808080;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 48px;
+}

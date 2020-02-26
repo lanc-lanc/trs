@@ -1,0 +1,1174 @@
+@charset "UTF-8";
+
+/*云能信息-公司大事记（三级页面）-1920*/
+.pdr {
+    margin-right: 4.8rem;
+}
+
+.tk-bac {
+    background: url("../images/tk1.png") center no-repeat;
+    min-width: 1200px;
+    padding-bottom: 95px;
+}
+.logo-box{
+    width: 1200px;
+    margin: 56px auto 0;
+    position: relative;
+}
+.tk-yn {
+    position: absolute;
+    right: -24px;
+    top: 0;
+}
+
+.tk-con {
+    background: url("../images/tk3.png") center 85px no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.tk-lo {
+    position: absolute;
+    right: 0;
+    top: 490px;
+}
+.pd58{
+    padding-bottom: 58px;
+}
+.cont {
+    width: 1200px;
+    margin: 874px auto 0;
+}
+
+.cont .uu {
+    width: 180px;
+}
+
+.cont .uu li {
+    height: 44px;
+    background: #eceded;
+    text-align: center;
+    box-sizing: border-box;
+    border-left: 8px solid #eceded;
+
+}
+
+.cont .uu li a {
+    font-size: 14px;
+    color: #393c3f;
+    line-height: 40px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cont .uu li:hover, .cont .uu .cur {
+    background: #23ffdd;
+    border-left: 8px solid #00d3da;
+}
+
+.cont .tk-an {
+    width: 975px;
+    position: relative;
+}
+
+.cont .tk-an .an-tit {
+    border-bottom: 2px solid #ababab;
+}
+
+.cont .tk-an .an-tit a {
+    font-size: 48px;
+    color: #393c3f;
+    font-weight: normal;
+    line-height: 48px;
+}
+
+.cont .tk-an .an-tit a span {
+    font-size: 12px;
+    color: #00d3da;
+    padding-left: 10px;
+}
+
+.cont .tk-an .an-tit a:hover {
+    font-weight: bold;
+}
+
+.cont .tk-an .an-ban {
+    margin-top: 30px;
+    width: 960px;
+    background: url("../images/tk5.png");
+    height: 1250px;
+}
+
+.mt-115 {
+    margin-top: -115px;
+}
+
+/*云能信息-公司概况+公司架构（三级页面）*/
+.pd115 {
+    padding-bottom: 115px;
+}
+
+.tk-jg {
+    margin-top: 30px;
+}
+
+.jg-l {
+    width: 377px;
+}
+
+.jg-l .p1 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-align: justify;
+}
+
+.jg-l .p2, .jg-r .p2 {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 18px;
+    color: #00d3da;
+    text-align: justify;
+}
+
+.mt120 {
+    margin-top: 120px;
+}
+
+.jg-r a {
+    display: block;
+}
+
+.tk-jg .a1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*云能信息-公司愿景（三级页面）*/
+.spe {
+    background: url("../images/tk10.png") center no-repeat;
+    overflow: hidden;
+}
+
+.spe .tk-con {
+    background: url("../images/tk11.png") center 85px no-repeat;
+    max-width: 1537px;
+    margin: auto;
+}
+
+.w810 {
+    width: 810px;
+}
+
+.w465 {
+    width: 465px;
+}
+
+.san {
+    /*margin-top: -54px;*/
+    position: absolute;
+    right: 0;
+    top: -56px;
+}
+
+.tk-words .p1 a{
+    font-size: 40px;
+    line-height: 38px;
+    color: #000000;
+}
+.tk-words .p1 a:hover{
+    color: #00d3da;
+}
+
+.tk-words .p2 {
+    font-size: 12px;
+    line-height: 12px;
+    color: #00d3da;
+}
+
+.bold .p1 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.w465 .p3 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.w465 .p4 {
+    font-size: 12px;
+    line-height: 15px;
+    color: #00d3da;
+}
+
+.bd {
+    border-bottom: 2px solid #a8a8a8;
+    padding-bottom: 35px;
+}
+
+.tk-zl {
+    width: 975px;
+    height: 1000px;
+    margin: 50px auto 0;
+    background: url("../images/tk9.png") 76px 67px no-repeat;
+    position: relative;
+}
+
+.tk-zl .d1 {
+    display: inline-block;
+}
+
+.tk-zl .d1 .p1 {
+    font-size: 40px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.tk-zl .d1 .p2 {
+    font-size: 12px;
+    line-height: 12px;
+    color: #00d3da;
+    margin-top: 5px;
+}
+
+.tk-zl .d2 .p1 {
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.tk-zl .d2 .p2 {
+    font-size: 12px;
+    line-height: 12px;
+    color: #00d3da;
+    margin-top: 5px;
+}
+
+.w206 {
+    width: 206px;
+}
+
+.w268 {
+    width: 268px;
+}
+
+.w184 {
+    width: 184px;
+}
+
+.w340 {
+    width: 340px;
+}
+
+.p-first {
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+.p-second {
+    position: absolute;
+    left: 170px;
+    top: 370px;
+}
+
+.p-third {
+    position: absolute;
+    right: 0;
+    top: 430px;
+}
+
+.p-forth {
+    position: absolute;
+    right: 70px;
+    top: 148px;
+}
+
+.p-first .p1 a, .p-second .p1 a, .p-third .p1 a, .p-forth .p1 a{
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+}
+.p-first .p1 a:hover, .p-second .p1 a:hover, .p-third .p1 a:hover, .p-forth .p1 a:hover{
+    color: #00d3da;
+}
+
+.p-first a, .p-second a {
+    position: absolute;
+    right: 0;
+}
+
+.p-first .p2, .p-second .p2, .p-third .p2, .p-forth .p2 {
+    font-size: 12px;
+    color: #000000;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.p-third a, .p-forth a {
+    position: absolute;
+    left: -38px;
+}
+
+.p2 .jian {
+    display: block;
+    padding: 9px 0;
+}
+
+.fl1, .fl2, .fl3, .fl4 {
+    font-size: 12px;
+    line-height: 15px;
+    color: #00d3da;
+    text-align: justify;
+}
+
+.fl1 {
+    width: 153px;
+    position: absolute;
+    left: 0;
+    top: 374px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.fl2 {
+    width: 632px;
+    position: absolute;
+    left: 173px;
+    bottom: 45px;
+}
+
+.fl3 {
+    width: 352px;
+    position: absolute;
+    right: 0;
+    bottom: 315px;
+    text-align: right;
+}
+
+.fl4 {
+    width: 386px;
+    position: absolute;
+    top: 230px;
+    right: 26px;
+}
+
+.tk-zl .p1 a:hover {
+    opacity: 0.75;
+}
+.pd120{
+    padding-bottom: 120px;
+}
+/*云能信息-企业文化（二级页面）*/
+.cult-back {
+    background: url("../images/tk16.png") center top no-repeat;
+    padding-bottom: 58px;
+}
+
+.cult {
+    background: url("../images/tk12.png") center 85px no-repeat;
+    padding-bottom: 70px;
+}
+
+.tk-u {
+    margin-left: -45px;
+    margin-top: -92px;
+}
+
+.tk-u li {
+    float: left;
+    margin-left: 45px;
+    margin-top: 80px;
+}
+
+.tk-u li div {
+    width: 465px;
+    height: 107px;
+}
+
+.tk-u li div a {
+    display: block;
+}
+
+.tk-u li div .pic:hover {
+    opacity: .75;
+}
+
+.tk-u li div p {
+    color: #727171;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.tk-u li div .p1 a {
+    color: #727171;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.tk-u li div .p1 a:hover {
+    color: #00d0d7;
+}
+
+.tk-u li div .p2 {
+    width: 295px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.tk-u li div .p3 {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 5px;
+}
+
+.page {
+    font-size: 12px;
+    line-height: 15px;
+    color: #aaaaab;
+    display: inline-block;
+    margin-top: 50px;
+    float: right;
+}
+
+.page .pre {
+    display: inline-block;
+    background: url("../images/tk14.png") center;
+    width: 11px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.page .nex {
+    display: inline-block;
+    background: url("../images/tk15.png") center;
+    width: 11px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.page p {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #00d3da;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.page p:hover, .page .cur {
+    background: #00d0d7;
+}
+
+.page p:hover a, .page .cur a {
+    color: #fff
+}
+
+.page p a {
+    color: #00d0d7;
+}
+
+.bd18 {
+    border-bottom: 2px solid #a8a8a8;
+    padding-bottom: 20px;
+}
+
+/*云能信息-企业文化（三级页面）*/
+.mm {
+    background: url("../images/tk18.png") center 85px no-repeat;
+    padding-bottom: 70px;
+}
+
+.mmbt {
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    border-bottom: 2px solid #a8a8a8;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.mmbt span {
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    float: right;
+    margin-top: 50px;
+}
+
+.mm-a {
+    margin-top: 30px;
+}
+
+.mm-a:hover {
+    opacity: .75;
+}
+
+.mm-p {
+    margin-top: 30px;
+    width: 470px;
+    height: 840px;
+    overflow-y: auto;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 28px;
+    color: #727171;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+/*云能信息-通知通告（二级页面）*/
+.tz-cont {
+    background: url("../images/tk19.png") center 2px no-repeat;
+    min-width: 1200px;
+    padding-bottom: 445px;
+    overflow: hidden;
+}
+
+.tz-yun {
+
+    width: 740px;
+    height: 464px;
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    margin-left: -370px;
+}
+
+.tz-box {
+    background: url("../images/tk20.png") center 0 no-repeat;
+    width: 100%;
+    margin-top: 270px;
+    overflow: hidden;
+    padding-bottom: 375px;
+}
+
+.tz-tit-p1 {
+    font-size: 80px;
+    color: #212528;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tz-tit-p2 {
+    text-align: center;
+    font-size: 20px;
+    color: #00d3da;
+    line-height: 16px;
+    margin-top: 14px;
+}
+
+.tz-box .u1 {
+    width: 1170px;
+    margin: 105px auto 0;
+}
+
+.tz-box .u1 li {
+    height: 40px;
+}
+
+.tz-box .u1 li a {
+    font-size: 20px;
+    line-height: 40px;
+    color: #231815;
+    background: url("../images/tk21.png") left center no-repeat;
+    padding-left: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 65%;
+    display: inline-block;
+
+}
+
+.tz-box .u1 li a:hover {
+    color: #00d3da;
+}
+
+.tz-box .u1 li span {
+    font-size: 20px;
+    line-height: 40px;
+    color: #231815;
+    float: right;
+}
+
+.all-tg {
+    width: 1200px;
+    margin: auto;
+}
+
+.all-tg .p1 a {
+    font-size: 40px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.all-tg .p1 a:hover {
+    font-weight: bold;
+}
+
+.all-tg .p1 span {
+    font-size: 15px;
+    line-height: 18px;
+    color: #00d3da;
+    vertical-align: top;
+    padding-left: 3px;
+}
+
+.all-tg .u2 {
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+.all-tg .u2 li {
+    height: 21px;
+    line-height: 21px;
+}
+
+.all-tg .u2 li a {
+    font-size: 15px;
+    line-height: 21px;
+    color: #c8c8c8;
+    background: url("../images/tk22.png") left center no-repeat;
+    padding-left: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 65%;
+    display: inline-block;
+
+}
+
+.all-tg .u2 li a:hover {
+    color: #00d3da;
+}
+
+.flo {
+    float: left;
+    margin-top: 38px;
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.flo .pre {
+    background: url("../images/tk25.png") center;
+    width: 18px;
+    height: 26px;
+}
+
+.flo .nex {
+    background: url("../images/tk26.png") center;
+    width: 18px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.flo p {
+    width: 26px;
+    height: 26px;
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.tg-ss {
+    width: 600px;
+    height: 34px;
+    background: #c8c8c8;
+    float: right;
+    padding-left: 20px;
+    padding-right: 70px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 30px;
+}
+
+.tg-ss::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+.tg-ss:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+.tg-ss::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+.tg-ss:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+.tg-btn {
+    background: url("../images/tk23.png");
+    width: 23px;
+    height: 24px;
+    float: right;
+    margin-right: -594px;
+    margin-top: 36px;
+}
+
+/*云能信息-通知通告（三级页面）*/
+.bg-change {
+    background: url("../images/tk24.png") center 2px no-repeat;
+    padding-bottom: 483px;
+    overflow: hidden;
+}
+
+.tz-tit-p3 {
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    width: 880px;
+    margin: 43px auto 0;
+}
+
+.tz-text {
+    width: 1200px;
+    margin: 80px auto 0;
+
+}
+
+.tz-text .text-t {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.tz-text .text-c {
+    font-size: 18px;
+    color: #000;
+    line-height: 35px;
+    margin-top: 7px;
+}
+
+.pd70 {
+    padding-bottom: 70px;
+}
+
+/*云能信息-支部建设（三级页面）*/
+.mm-a-box {
+    width: 462px;
+}
+
+.dang {
+    background: url("../images/tk27.png") center 85px no-repeat;
+}
+
+/*云能信息-职工之家（二级页面）*/
+.zgzj {
+    background: url("../images/tk28.png") center 85px no-repeat;
+    padding-bottom: 70px;
+}
+/*品牌背景（二级页面）*/
+.yny{
+    background: url("../images/yny1.png") center top no-repeat;
+    overflow: hidden;
+    min-width: 1262px;
+    padding-bottom: 84px;
+    /*background-size: contain;*/
+}
+.yny-logo-box{
+    width: 1200px;
+    margin: 98px auto 0;
+    position: relative;
+}
+.yny-logo-box .l{
+    position: absolute;
+    left: -44px;
+}
+.yny-logo-box .r{
+    position: absolute;
+    right: 0;
+}
+.yny-cont{
+    background: url("../images/yny10.png") center 265px no-repeat;
+    width: 100%;
+    padding-bottom: 105px;
+    overflow: hidden;
+}
+.yny-cont-box{
+    width: 1262px;
+    margin: 494px auto 0;
+    text-align: center;
+}
+.yny-cont-lo{
+    margin: 0 auto;
+    display: inline-block;
+}
+.yny-cont-tit{
+    font-size: 60px;
+    line-height: 60px;
+    color: #009ce6;
+    margin-top: 40px;
+}
+.yny-cont-tit1{
+    font-size: 18px;
+    line-height: 18px;
+    color: #009ce6;
+    margin-top: 24px;
+}
+.yny-an{
+    width: 100%;
+    height: 320px;
+    background: #eaeaea;
+    margin-top: 33px;
+}
+.yny-an .ll{
+    font-size: 15px;
+    color: #000000;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-left: 36px;
+    width: 570px;
+    text-align: left;
+}
+.yny-an .ll span{
+    font-weight: bold;
+}
+.yny-an .rr{
+    font-size: 12px;
+    line-height: 15px;
+    color: #00cfd6;
+    width: 570px;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 36px;
+}
+.yny-an .rr span{
+    display: inline-block;
+    height: 13px;
+    width: 100%;
+}
+.yny-an1{
+    width: 100%;
+    height: 65px;
+    background: #eaeaea;
+    margin-top: 15px;
+}
+.yny-an1 a{
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 264px;
+    width: 44px;
+    height: 44px;
+}
+.yny-an1 a:first-child{
+    margin-left: 147px;
+}
+.yny-an1 .a1{
+    background: url("../images/yny5_03.png") center no-repeat;
+}
+.yny-an1 .a1:hover{
+    background: url("../images/yny6_03.png") center no-repeat;
+}
+.yny-an1 .a2{
+    background: url("../images/yny5_05.png") center no-repeat;
+}
+.yny-an1 .a2:hover{
+    background: url("../images/yny6_05.png") center no-repeat;
+}
+.yny-an1 .a3{
+    background: url("../images/yny5_07.png") center no-repeat;
+}
+.yny-an1 .a3:hover{
+    background: url("../images/yny6_07.png") center no-repeat;
+}
+.yny-an1 .a4{
+    background: url("../images/yny5_09.png") center no-repeat;
+}
+.yny-an1 .a4:hover{
+    background: url("../images/yny6_09.png") center no-repeat;
+}
+.yny-tw{
+    width: 1262px;
+    height: 375px;
+}
+.be{
+    background: #e0e0e0;
+}
+.tw-t{
+    margin-top: 46px;
+    width: 547px;
+}
+.tw-w{
+    width: 552px;
+    margin-top: 46px;
+    text-align: left;
+}
+.tw-w .p1 a{
+    font-size: 40px;
+    color: #3e3a39;
+    line-height: 46px;
+}
+.tw-w .p1 a:hover{
+    color: #00cfd6;
+}
+.tw-w .p2{
+    font-size: 12px;
+    color: #00cfd6;
+    margin-top: 6px;
+}
+.tw-w .p3{
+    font-size: 22px;
+    line-height: 15px;
+    color: #00cfd6;
+    font-weight: bold;
+    margin-top: 13px;
+}
+.tw-w .p4{
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 13px;
+
+}
+.tw-w .p5{
+    font-size: 12px;
+    line-height: 18px;
+    color: #00cfd6;
+    margin-top: 8px;
+}
+.tw-t a{
+    display: inline-block;
+}
+.tw-t a:hover{
+    opacity: .75;
+}
+.ml32{
+    margin-left: 32px;
+}
+.mr32{
+    margin-right: 32px;
+}
+.tw-w .mt76{
+    margin-top: 76px;
+}
+/*联系我们（二级页面）*/
+.lx{
+    background: url("../images/lx3.png") center top no-repeat;
+    overflow: hidden;
+    min-width: 1262px;
+    padding-bottom: 298px;
+}
+.lx-logo-box{
+    width: 1200px;
+    margin: 65px auto 0;
+    position: relative;
+}
+.lx-logo-box .l{
+    position: absolute;
+    left: 0;
+}
+.lx-logo-box .r{
+    position: absolute;
+    right: 0;
+}
+.lx-cont{
+    width: 1200px;
+    margin: 770px auto 0;
+}
+.lx-cont .lx-tit{
+    font-size: 40px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+}
+.lx-cont .dt{
+    width: 1200px;
+    height: 460px;
+    border: 4px solid #00d3da;
+    box-sizing: border-box;
+    margin-top: 38px;
+}
+.lx-cont .dt img{
+    width: 1194px;
+}
+.lx-cont .lx-adr{
+    font-size: 30px;
+    line-height: 27px;
+    color: #00d3da;
+    text-align: center;
+    margin-top: 37px;
+    border-bottom: 1px solid #595757;
+    padding-bottom: 40px;
+}
+.lx-cont .uf{
+    margin-left: -108px;
+}
+.lx-cont .uf li{
+    float: left;
+    margin-left: 108px;
+    margin-top: 118px;
+}
+.lx-cont .uf .p1{
+    font-size: 35px;
+    line-height: 18px;
+    color: #595757;
+    padding-bottom: 24px;
+}
+.lx-cont .uf .p2{
+    font-size: 22px;
+    line-height: 35px;
+    color: #00d3da;
+}
+/********首页轮播页***********/
+.tk-tm {
+    width: 1920px;
+    height: 820px;
+    position: relative;
+    margin: 0 auto;
+}
+.tk-tm .fLb {
+    width: 100%;
+    height: 100%;
+
+}
+.tk-tm .fLb a{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tk-tm .fLb a img{
+    /*width: 100%;*/
+}
+
+.tk-tm .lbNums {
+    height: 20px;
+    position: absolute;
+    right: 16px;
+    bottom: 34px;
+}
+.tk-tm .lbNums span {
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tk-tm .lbNums span:hover,
+.tk-tm .lbNums span.cur {
+    background: #1781cb;
+}
+.lb-b{
+    width: 290px;
+    height: 100%;
+    position: absolute;
+    right: 360px;
+    top: 0;
+    text-align: center;
+}
+.lb-b .p1{
+    font-size: 75px;
+    line-height: 75px;
+    color: #ffffff;
+    width: 150px;
+    margin: 96px auto 0;
+}
+.lb-b .p2{
+    font-size: 15px;
+    line-height: 6px;
+    color: #ffffff;
+    margin: 8px auto 0;
+}
+.lb-b .p3{
+    font-size: 30px;
+    width: 212px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    margin-top: 68px;
+}
+.lb-b .p3:hover{
+    color: #00cfd6;
+}
+.lb-b .p3 span{
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    display: block;
+}
+.lb-b ul{
+    margin-top: 40px;
+}
+.lb-b ul li a{
+   float: left;
+    margin-left: 18px;
+}
+.lb-b ul li a:hover{
+    color: #00cfd6;
+}
+.lb-b ul li a, .lb-b ul li span{
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 46%;
+}
+.lb-b ul li span{
+    float: right;
+    text-align: left;
+    width: 70px;
+    margin-right: 16px;
+}
+.lb-b .know{
+    width: 80px;
+    height: 24px;
+    box-sizing: border-box;
+    border: 2px solid #00d0d7;
+    color: #00d0d7;
+    line-height: 21px;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.lb-b .know:hover{
+    font-weight: bold;
+}
+.lb-b .know-ico{
+    display: block;
+    margin: 15px auto 0;
+}

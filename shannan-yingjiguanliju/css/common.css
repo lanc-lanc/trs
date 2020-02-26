@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333
+}
+
+textarea {
+    outline:none;
+    border:none;
+    resize:none;
+}
+
+
+/****a标签hover效果******/
+
+.li-text a:hover {
+    color: #3354a2;
+    /*font-weight: bold;*/
+}
+
+.span-cur,
+span.sp-text:hover {
+    color: #3354a2;
+    font-weight: 600;
+}
+
+.text-uline a:hover {
+    text-decoration: underline;
+}
+
+.a-uline:hover {
+    text-decoration: underline;
+}
+
+a,
+span {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input,
+button,
+text{
+    vertical-align: middle;
+    outline: none;
+    border: none;
+}
+
+
+select {
+    /* 清除默认边框 */
+    border: 0;
+    /* 清除默认的箭头样式 */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+}
+
+
+/*for FireFox button 内置padding为0*/
+
+
+input,
+textarea {
+    box-sizing: content-box;
+    outline: none;
+    background: 0 0;
+    font-family: "Microsoft YaHei"
+}
+
+input::-webkit-input-placeholder {
+    color: #acacac;
+}
+
+input:-moz-placeholder {
+    color: #acacac;
+}
+
+input::-moz-placeholder {
+    color: #acacac;
+}
+
+input:-ms-input-placeholder {
+    color: #acacac;
+}
+
+body {
+    font-size: 0;
+    color: #000;
+    font-family: "Microsoft YaHei";
+}
+
+
+/****************通用样式*****************/
+
+
+/*清除浮动*/
+
+.clear-fix {
+    *zoom: 1;
+}
+
+
+/* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+
+.clear-fix:before,
+.clear-fix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clear-fix:after {
+    clear: both;
+}
+
+.lf {
+    float: left;
+}
+
+.rf {
+    float: right;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
+/*****图标***/
+
+.pic:hover {
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+}
+
+.iconD:hover {
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+}
+
+/*修改提示文字的颜色*/
+
+.lfh-header input::-webkit-input-placeholder { /* WebKit browsers */
+
+    color: #fff;
+
+}
+
+.lfh-header input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+    color: #fff;
+
+}
+
+.lfh-header input::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+    color: #fff;
+
+}
+
+.lfh-header input:-ms-input-placeholder { /* Internet Explorer 10+ */
+
+    color: #fff;
+
+}
+
+.lfh-content .lfh-tc:hover {
+    color: #3354a2;
+}

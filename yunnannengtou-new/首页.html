@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/zjj.css">
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/common.js"></script>
+	<script type="text/javascript" src="lib/tool.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/setFont.js"></script>
+    <script src="js/zjj.js"></script>
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="w-container clearfix">
+			<div class="menu lf">
+				<img src="./images/menu.png">
+				<div class="menu-box clearfix">
+					<ul class="list1">
+						<li><a href="">云能云</a></li>
+						<li>
+							<a href="">云能信息</a>
+							<ul class="list2">
+								<li><a href="">公司概况</a></li>
+								<li><a href="">公司背景</a></li>
+								<li><a href="">公司经营</a></li>
+								<li><a href="">公司战略</a></li>
+								<li><a href="">公司大事记</a></li>
+								<li>
+									<a href="">组织建设</a>
+									<ul class="list3">
+										<li><a href="">支部建设</a></li>
+										<li><a href="">工会建设</a></li>
+										<li><a href="">团青工作</a></li>
+									</ul>
+								</li>
+								<li><a href="">企业文化</a></li>
+								<li><a href="">职工之家</a></li>
+							</ul>
+						</li>
+						<li><a href="">新闻动态</a></li>
+						<li><a href="">产品目录</a></li>
+						<li><a href="">解决方案</a></li>
+						<li><a href="">权威发布</a></li>
+						<li><a href="">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+			<a class="logo lf" href=""><img src="./images/logo.png"></a>
+			<div class="nav lf clearfix">
+				<a class="tit fir" href="">云能云</a>
+				<a class="tit" href="">云能信息</a>
+				<a class="tit" href="">新闻动态</a>
+				<a class="tit" href="">产品目录</a>
+				<a class="tit" href="">解决方案</a>
+				<a class="tit" href="">权威发布</a>
+				<a class="tit" href="">联系我们</a>
+				<a class="tit" href="">公示公告</a>
+			</div>
+			<div class="search-box rt">
+				<input type="text" name="">
+				<button><img src="./images/icon1.png"></button>
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+        <!-- 大轮播 -->
+<!--        <div class="banner-box" id="1">-->
+<!--            <div class="banner-img">-->
+<!--                <a href="javascript:;"><img src="images/yn_lunbo_pic.jpg" alt=""></a>-->
+<!--                <a href="javascript:;"><img src="images/yn_lunbo_pic2.jpg" alt=""></a>-->
+<!--                <a href="javascript:;"><img src="images/yn_lunbo_pic3.jpg" alt=""></a>-->
+<!--                <a href="javascript:;"><img src="images/yn_lunbo_pic4.jpg" alt=""></a>-->
+<!--                <a href="javascript:;"><img src="images/yn_lunbo_pic.jpg" alt=""></a>-->
+<!--                <a href="javascript:;"><img src="images/yn_lunbo_pic2.jpg" alt=""></a>-->
+<!--            </div>-->
+<!--            <div class="banner-num">-->
+<!--                <span class="cur"></span>-->
+<!--                <span></span>-->
+<!--                <span></span>-->
+<!--                <span></span>-->
+<!--                <span></span>-->
+<!--                <span></span>-->
+<!--            </div>-->
+<!--            <div class="banner-btn banner-left">&lt;</div>-->
+<!--            <div class="banner-btn banner-right">&gt;</div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; end 大轮播 &ndash;&gt;-->
+
+<!--        &lt;!&ndash; 优秀案例 &ndash;&gt;-->
+<!--        <div class="excellentCase" id="2">-->
+<!--            <div class="index-wrap3-tit clearfix">-->
+<!--                <div class="inde-wrap-tit">-->
+<!--                    <p class="en">EXCELLENT</p>-->
+<!--                    <p class="en">CASE</p>-->
+<!--                    <p class="ch">优秀案例</p>-->
+<!--                    <img src="./images/icon21.png">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="excellentTxt">-->
+<!--                <ul class="txt_item_con">-->
+<!--                    <li class="txt_item">-->
+<!--                        <p class="s_txt">Yunnan provincial</p>-->
+<!--                        <p class="s_txt">development and</p>-->
+<!--                        <p class="s_txt">reform commission</p>-->
+<!--                        <p class="b_txt">SPRING</p>-->
+<!--                        <p class="b_txt">CLOUD</p>-->
+<!--                        <p class="sup_txt">云南省发改委</p>-->
+<!--                        <p class="sup_txt n_txt">春之云</p>-->
+<!--                    </li>-->
+<!--                    <li class="txt_item" style="display:none;">-->
+<!--                        <p class="s_txt">SASAC Cloud of</p>-->
+<!--                        <p class="s_txt">Yunnan Provincial SASAC</p>-->
+<!--                        <p class="b_txt">SASAC</p>-->
+<!--                        <p class="b_txt">Cloud</p>-->
+<!--                        <p class="sup_txt">云南省国资委</p>-->
+<!--                        <p class="sup_txt n_txt">国资云</p>-->
+<!--                        <p class="m_txt"><a href="">&gt;&gt;&gt;&gt; More</a></p>-->
+<!--                    </li>-->
+<!--                    <li class="txt_item" style="display:none;">-->
+<!--                        <p class="s_txt">Yunnan provincial</p>-->
+<!--                        <p class="s_txt">Department of Water</p>-->
+<!--                        <p class="b_txt">Intelligent</p>-->
+<!--                        <p class="b_txt">Water</p>-->
+<!--                        <p class="sup_txt">云南省水利厅</p>-->
+<!--                        <p class="sup_txt n_txt">智慧水利</p>-->
+<!--                        <p class="m_txt"><a href="">&gt;&gt;&gt;&gt; More</a></p>-->
+<!--                    </li>-->
+<!--                    <li class="txt_item" style="display:none;">-->
+<!--                        <p class="s_txt">Yunnan Energy</p>-->
+<!--                        <p class="s_txt">Investment Group</p>-->
+<!--                        <p class="b_txt">Energy</p>-->
+<!--                        <p class="b_txt">Cloud</p>-->
+<!--                        <p class="sup_txt">云南能投集团</p>-->
+<!--                        <p class="sup_txt n_txt">能源云</p>-->
+<!--                        <p class="m_txt"><a href="">&gt;&gt;&gt;&gt; More</a></p>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <div class="page">-->
+<!--                    <a class="btn pre"></a>-->
+<!--                    <a class="btn second next"></a>-->
+<!--                    <span class="num_txt first">01</span>-->
+<!--                    <span class="num_txt">/</span>-->
+<!--                    <span class="num_txt">04</span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="exchangeImg_con">-->
+<!--                <div class="img_con">-->
+<!--                    <div class="img_big">-->
+<!--                        <a href=""><img src="images/yn_lunbo_pic.jpg" alt=""></a>-->
+<!--                    </div>-->
+<!--                    <ul class="img_small">-->
+<!--                        <li class="first">-->
+<!--                            <a href=""><img src="images/1.png" alt=""></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=""><img src="images/2.png" alt=""></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=""><img src="images/3.png" alt=""></a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="img_con" style="display:none;">-->
+<!--                    <div class="img_big">-->
+<!--                        <a href=""><img src="images/yn_lunbo_pic2.jpg" alt=""></a>-->
+<!--                    </div>-->
+<!--                    <ul class="img_small">-->
+<!--                        <li class="first">-->
+<!--                            <a href=""><img src="images/4.png" alt=""></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=""><img src="images/5.png" alt=""></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=""><img src="images/3.png" alt=""></a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="img_con" style="display:none;">-->
+<!--                    <div class="img_big">-->
+<!--                        <a href=" "><img src="images/yn_lunbo_pic3.jpg " alt=" "></a>-->
+<!--                    </div>-->
+<!--                    <ul class="img_small ">-->
+<!--                        <li class="first ">-->
+<!--                            <a href=" "><img src="images/5.png " alt=" "></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=" "><img src="images/1.png " alt=" "></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=" "><img src="images/4.png " alt=" "></a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="img_con" style="display:none;">-->
+<!--                    <div class="img_big ">-->
+<!--                        <a href=" "><img src="images/yn_lunbo_pic4.jpg " alt=" "></a>-->
+<!--                    </div>-->
+<!--                    <ul class="img_small ">-->
+<!--                        <li class="first ">-->
+<!--                            <a href=" "><img src="images/3.png " alt=" "></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=" "><img src="images/2.png " alt=" "></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href=" "><img src="images/5.png " alt=" "></a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="tzgg_con ">-->
+<!--                <a class="first " href=" ">通<br/>知</a>-->
+<!--                <a class="second " href=" ">公<br/>告</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; end 优秀案例 &ndash;&gt;-->
+
+
+        <!--  权威发布banner 以及优秀案例轮播      -->
+        <div class="yun_wrap_sy">
+            <div class="sy-1">
+                <a class="sy-m"></a>
+                <div class="g_mid">
+
+                    <div class="qwfb">
+                        <div class="qwfb1">
+                            <span class="qspan1">权威发布</span>
+                            <span class="qspan2">Authority Issued</span>
+
+                        </div>
+                        <div class="qwfb2" id="1">
+                            <span class="pspan1">2018年11月</span>
+                            <span class="pspan1">信息化及</span>
+                            <span class="pspan1">信息产业宏观政策</span>
+                            <span class="pspan1">及舆情分析报告</span>
+
+                            <span class="pspan2">2018.11.22</span>
+
+                            <ul class="qwfbul">
+                                <li class="clearfix preli">
+                                    <a href >动态动态动态动态</a>
+                                    <span class="rt">2019.1.8</span>
+                                </li>
+                                <li class="clearfix preli">
+                                    <a href >动态动态动态动态</a>
+                                    <span class="rt">2019.1.8</span>
+                                </li>
+                                <li class="clearfix preli">
+                                    <a href >动态动态动态动态</a>
+                                    <span class="rt">2019.1.8</span>
+                                </li>
+                                <li class="clearfix preli">
+                                    <a href >动态动态动态动态</a>
+                                    <span class="rt">2019.1.8</span>
+                                </li>
+                                <li class="lastli">
+                                    <a href class="z-sy-more">了解更多</a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href class="lk"></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="yxal" id="2">
+                        <img src="images/sy-lb1.png" alt="">
+<!--                        <img src="images/sy-lb2.png" alt="">-->
+<!--                        <img src="images/sy-lb3.png" alt="">-->
+<!--                        <img src="images/sy-lb4.png" alt="">-->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 产品目录 -->
+        <div class="index-wrap2 " id="3" style="position:relative; ">
+            <div class="index-wrap2-tit clearfix ">
+                <div class="inde-wrap-tit ">
+                    <p class="en ">PRODUCT</p>
+                    <p class="ch ">产品目录</p>
+                    <img src="./images/icon21.png ">
+                </div>
+                <div class="index-wrap2-more rt ">
+                    <a href=" ">
+                        <img src="./images/icon22.png ">
+                        <span>MORE</span>
+                    </a>
+                </div>
+            </div>
+            <div class="index-wrap2-content clearfix ">
+                <div class="index-wrap2-con lf clearfix ">
+                    <div class="index-wrap2-box lf clearfix ">
+                        <a href=" ">
+                            <div class="img lf ">
+                                <img class="img1 " src="./images/icon12.png ">
+                            </div>
+                            <div class="con rt ">
+                                <p class="tit-b ">云基础设施服务</p>
+                                <a class="tit-s ">Cloud infrastructure services</a>
+                                <p class="text ">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
+                                <a class="more "><img src="./images/icon16.png "></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="index-wrap2-box rt clearfix ">
+                        <a href=" ">
+                            <div class="img lf ">
+                                <img class="img2 " src="./images/icon13.png ">
+                            </div>
+                            <div class="con rt ">
+                                <p class="tit-b ">云平台服务</p>
+                                <a class="tit-s ">Cloud platform services</a>
+                                <p class="text ">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
+                                <a class="more "><img src="./images/icon16.png "></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="index-wrap2-box lf clearfix ">
+                        <a href=" ">
+                            <div class="img lf ">
+                                <img class="img3 " src="./images/icon14.png ">
+                            </div>
+                            <div class="con rt ">
+                                <p class="tit-b ">云应用软件服务</p>
+                                <a class="tit-s ">Cloud application software</a>
+                                <p class="text ">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
+                                <a class="more "><img src="./images/icon16.png "></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="index-wrap2-box rt clearfix ">
+                        <a href=" ">
+                            <div class="img lf ">
+                                <img class="img4 " src="./images/icon15.png ">
+                            </div>
+                            <div class="con rt ">
+                                <p class="tit-b ">数据服务</p>
+                                <p class="tit-s ">Data services</p>
+                                <a class="text ">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</a>
+                                <a class="more lastmore "><img src="./images/icon16.png "></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="index-wrap2-list lf ">
+                    <a href=" ">
+                        <img src="./images/icon8.png ">
+                        <p class="en ">Cloud network</p>
+                        <p class="ch ">云网络</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon17.png ">
+                        <p class="en ">Cloud security</p>
+                        <p class="ch ">云安全</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon11.png ">
+                        <p class="en ">Cloud security</p>
+                        <p class="ch ">云操作系统</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon18.png ">
+                        <p class="en ">Cloud database</p>
+                        <p class="ch ">云数据库</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon19.png ">
+                        <p class="en ">Internal portal</p>
+                        <p class="ch ">内部门户应用</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon20.png ">
+                        <p class="en ">External portal</p>
+                        <p class="ch ">外部门户网站应用</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon10.png ">
+                        <p class="en ">The data show</p>
+                        <p class="ch ">数据展现</p>
+                    </a>
+                    <a href=" ">
+                        <img src="./images/icon9.png ">
+                        <p class="en ">The data collecion</p>
+                        <p class="ch ">数据采集</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end 产品目录 -->
+
+        <!-- 解决方案 -->
+        <div class="index-wrap3 " id="4">
+            <div class="index-wrap3-tit clearfix ">
+                <div class="inde-wrap-tit ">
+                    <p class="en ">SOLUTION</p>
+                    <p class="ch ">解决方案</p>
+                    <img src="./images/icon21.png ">
+                </div>
+                <img class="rt "  style="
+                position: relative;
+                right: -88px;" src="./images/img23.png ">
+            </div>
+            <div class="index-wrap3-con clearfix ">
+                <div class="index-wrap3-box ">
+                    <a href=" ">
+                        <div class="num ">
+                            <img src="./images/i-icon4.png ">
+                        </div>
+                        <div class="img ">
+                            <img class="sy-per" src="./images/sy-per1.png">
+                        </div>
+                        <div class="content ">
+                            <div class="title clearfix ">
+                                <div class="tit lf ">
+                                    <p class="b ">政务</p>
+                                    <p class="s ">解决方案</p>
+                                </div>
+                                <img class="rt " src="./images/icon8.png ">
+                            </div>
+                            <div class="text ">
+                                <p>qwerty uiop qwertyuiopqwertyuio pqw er tyuiopqwertyuiopqwertyuiopqwer tyuiopq wertyuiopqw ertyuiop</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-wrap3-box ">
+                    <a href=" ">
+                        <div class="num ">
+                            <img src="./images/i-icon5.png ">
+                        </div>
+                        <div class="img ">
+                            <img class="sy-per" src="./images/sy-per2.png ">
+                        </div>
+                        <div class="content ">
+                            <div class="title clearfix ">
+                                <div class="tit lf ">
+                                    <p class="b ">企业</p>
+                                    <p class="s ">解决方案</p>
+                                </div>
+                                <img class="rt " src="./images/icon9.png ">
+                            </div>
+                            <div class="text ">
+                                <p>qwerty uiop qwertyuiopqwertyuio pqw er tyuiopqwertyuiopqwertyuiopqwer tyuiopq wertyuiopqw ertyuiop</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-wrap3-box ">
+                    <a href=" ">
+                        <div class="num ">
+                            <img src="./images/i-icon6.png ">
+                        </div>
+                        <div class="img ">
+                            <img class="sy-per" src="./images/sy-per3.png ">
+                        </div>
+                        <div class="content ">
+                            <div class="title clearfix ">
+                                <div class="tit lf ">
+                                    <p class="b " style="width: 120px;">大数据</p>
+                                    <p class="s ">解决方案</p>
+                                </div>
+                                <img class="rt " src="./images/icon10.png ">
+                            </div>
+                            <div class="text ">
+                                <p>qwerty uiop qwertyuiopqwertyuio pqw er tyuiopqwertyuiopqwertyuiopqwer tyuiopq wertyuiopqw ertyuiop</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-wrap3-box ">
+                    <a href=" ">
+                        <div class="num ">
+                            <img src="./images/icon7.png ">
+                        </div>
+                        <div class="img ">
+                            <img class='sy-per' src="./images/sy-per4.png ">
+                        </div>
+                        <div class="content ">
+                            <div class="title clearfix ">
+                                <div class="tit lf ">
+                                    <p class="b ">安全</p>
+                                    <p class="s ">解决方案</p>
+                                </div>
+                                <img class="rt " src="./images/icon11.png ">
+                            </div>
+                            <div class="text ">
+                                <p>qwerty uiop qwertyuiopqwertyuio pqw er tyuiopqwertyuiopqwertyuiopqwer tyuiopq wertyuiopqw ertyuiop</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end 解决方案 -->
+
+        <!-- 企业能力 -->
+        <div class="index-wrap4 " id="5">
+            <div class="index-wrap4-row1 clearfix ">
+                <img class="img1 lf " src="./images/i-img1.png ">
+                <div class="info lf ">
+                    <p class="text ">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文</p>
+                    <p class="address "><a href=" ">www.VMWARE.com.cn</a></p>
+                </div>
+                <img class="img2 lf " src="./images/i-img2.png ">
+            </div>
+            <div class="index-wrap4-row2 clearfix ">
+                <div class="inde-wrap-tit ">
+                    <p class="en ">ENTERPRISE<br>COMPETENCE</p>
+                    <p class="ch ">企业能力</p>
+                    <img src="./images/icon21.png ">
+                </div>
+                <div class="banner lf ">
+                    <div class="title ">
+                        <p class="en ">PARTNES</p>
+                        <p class="ch ">合作伙伴</p>
+                    </div>
+                    <div class="list ">
+                        <p class="p1 "><img src="./images/i-img3.png "><img src="./images/i-img4.png "><img src="./images/i-img5.png "><img src="./images/i-img6.png "><img src="./images/i-img7.png "></p>
+                        <p class="p2 "><img src="./images/i-img8.png "><img src="./images/i-img9.png "><img src="./images/i-img10.png "><img src="./images/i-img11.png "><img src="./images/i-img12.png "><img src="./images/i-img13.png "></p>
+                        <p class="p3 "><img src="./images/i-img14.png "><img src="./images/i-img15.png "><img src="./images/i-img16.png "><img src="./images/i-img17.png "><img src="./images/i-img18.png "></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end 企业能力 -->
+
+        <!-- 右侧导航定位 -->
+        <div class="section-nav " data-theme="dark">
+            <a class="section-nav-switch " href="#1">
+                <div class="section-nav-active-bg "></div>
+                <div class="section-nav-bg "></div>
+                <div class="section-nav-label " style="width: 75px;display:none ">
+                    <span>权威发布</span>
+                </div>
+            </a>
+            <a class="section-nav-switch " href="#2">
+                <div class="section-nav-active-bg "></div>
+                <div class="section-nav-bg "></div>
+                <div class="section-nav-label " style="width: 75px;display:none ">
+                    <span>优秀案例</span>
+                </div>
+            </a>
+            <a class="section-nav-switch " href="#3">
+                <div class="section-nav-active-bg "></div>
+                <div class="section-nav-bg "></div>
+                <div class="section-nav-label " style="width: 75px;display:none ">
+                    <span>产品目录</span>
+                </div>
+            </a>
+            <a class="section-nav-switch " href="#4">
+                <div class="section-nav-active-bg"></div>
+                <div class="section-nav-bg "></div>
+                <div class="section-nav-label " style="width: 75px;display:none ">
+                    <span>解决方案</span>
+                </div>
+            </a>
+            <a class="section-nav-switch " href="#5">
+                <div class="section-nav-active-bg"></div>
+                <div class="section-nav-bg "></div>
+                <div class="section-nav-label " style="width: 75px;display:none ">
+                    <span>企业能力</span>
+                </div>
+            </a>
+            <a href class="sy-tzgg"></a>
+        </div>
+        <!-- end 右侧导航定位 -->
+    </div>
+
+	<div class="footer">
+		<div class="f-content clearfix w-container">
+			<img class="phone lf " src="./images/f-img1.png ">
+			<div class="f-help lf ">
+				<a href=" ">关于我们</a>
+				<span>|</span>
+				<a href=" ">云能信息</a>
+				<span>|</span>
+				<a href=" ">新闻动态</a>
+				<span>|</span>
+				<a href=" ">权威发布</a>
+			</div>
+			<div class="f-drop lf ">
+				<p class="tag ">友情链接</p>
+				<ul class="f-drop-l ">
+					<li><a href="">1</a></li>
+					<li><a href="">1</a></li>
+					<li><a href="">1</a></li>
+				</ul>
+			</div>
+			<div class="ewm rt ">
+				<img src="./images/ewm.png ">
+			</div>
+		</div>
+		<div class="f-text ">
+			<p><span>© 2018云南能投信息产业开发有限公司</span><span>版权所有 Copyright (C)</span><span>All Rights Reserved</span><span>滇ICP备13005863号</span></p>
+			<p><span>地址：云南省昆明市西山区日新中路616号云南能投集团集控综合楼</span><span>电话：+86 0871-64980000</span><span>传真：+86 0871-64981111</span><span>邮箱：ynnt@cnyeig.com</span></p>
+		</div>
+	</div>
+</body>
+
+<!--&lt;!&ndash;    <meta charset="UTF-8">&ndash;&gt;-->
+<!--&lt;!&ndash;    <title>首页</title>&ndash;&gt;-->
+<!--&lt;!&ndash;    <link rel="stylesheet" href="css/common.css">&ndash;&gt;-->
+<!--&lt;!&ndash;    <link rel="stylesheet" href="css/style.css">&ndash;&gt;-->
+<!--&lt;!&ndash;    <script type="text/javascript " src="lib/jquery.min.js "></script>&ndash;&gt;-->
+<!--&lt;!&ndash;    <script type="text/javascript " src="lib/common.js "></script>&ndash;&gt;-->
+<!--&lt;!&ndash;    <script type="text/javascript " src="lib/tool.js "></script>&ndash;&gt;-->
+<!--&lt;!&ndash;    <script type="text/javascript " src="js/base.js "></script>&ndash;&gt;-->
+<!--    <script src="js/zjj.js"></script>-->
+<!--<link rel="stylesheet" href="css/zjj.css">-->
+
+<!--&lt;!&ndash;</head>&ndash;&gt;-->
+
+<!--<body>-->
+<!--    &lt;!&ndash;header&ndash;&gt;-->
+<!--    <div class="header">-->
+<!--        <div class="w-container clearfix">-->
+<!--            <div class="menu lf">-->
+<!--                <img src="./images/menu.png">-->
+<!--                <div class="menu-box clearfix">-->
+<!--                    <ul class="list1">-->
+<!--                        <li><a href="">云能云</a></li>-->
+<!--                        <li>-->
+<!--                            <a href="">云能信息</a>-->
+<!--                            <ul class="list2">-->
+<!--                                <li><a href="">公司概况</a></li>-->
+<!--                                <li><a href="">公司背景</a></li>-->
+<!--                                <li><a href="">公司经营</a></li>-->
+<!--                                <li><a href="">公司战略</a></li>-->
+<!--                                <li><a href="">公司大事记</a></li>-->
+<!--                                <li>-->
+<!--                                    <a href="">组织建设</a>-->
+<!--                                    <ul class="list3">-->
+<!--                                        <li><a href="">支部建设</a></li>-->
+<!--                                        <li><a href="">工会建设</a></li>-->
+<!--                                        <li><a href="">团青工作</a></li>-->
+<!--                                    </ul>-->
+<!--                                </li>-->
+<!--                                <li><a href="">企业文化</a></li>-->
+<!--                                <li><a href="">职工之家</a></li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                        <li><a href="">新闻动态</a></li>-->
+<!--                        <li><a href="">产品目录</a></li>-->
+<!--                        <li><a href="">解决方案</a></li>-->
+<!--                        <li><a href="">权威发布</a></li>-->
+<!--                        <li><a href="">联系我们</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <a class="logo lf" href=""><img src="./images/logo.png"></a>-->
+<!--            <div class="nav lf clearfix">-->
+<!--                <a class="tit fir" href="">云能云</a>-->
+<!--                <a class="tit" href="">云能信息</a>-->
+<!--                <a class="tit" href="">新闻动态</a>-->
+<!--                <a class="tit" href="">产品目录</a>-->
+<!--                <a class="tit" href="">解决方案</a>-->
+<!--                <a class="tit" href="">权威发布</a>-->
+<!--                <a class="tit" href="">联系我们</a>-->
+<!--                <a class="tit" href="">公示公告</a>-->
+<!--            </div>-->
+<!--            <div class="search-box rt">-->
+<!--                <input type="text" name="">-->
+<!--                <button><img src="./images/icon1.png"></button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;header end&ndash;&gt;-->
+<!--&lt;!&ndash;content&ndash;&gt;-->
+<!--    <div class="yun_wrap_sy">-->
+<!--        <div class="sy-1">-->
+<!--            <a class="sy-m"></a>-->
+<!--            <div class="g_mid">-->
+
+<!--                <div class="qwfb">-->
+<!--                    <div class="qwfb1">-->
+<!--                        <span class="qspan1">权威发布</span>-->
+<!--                        <span class="qspan2">Authority Issued</span>-->
+
+<!--                    </div>-->
+<!--                    <div class="qwfb2">-->
+<!--                        <span class="pspan1">2018年11月</span>-->
+<!--                        <span class="pspan1">信息化及</span>-->
+<!--                        <span class="pspan1">信息产业宏观政策</span>-->
+<!--                        <span class="pspan1">及舆情分析报告</span>-->
+
+<!--                        <span class="pspan2">2018.11.22</span>-->
+
+<!--                        <ul class="qwfbul">-->
+<!--                           <li class="clearfix preli">-->
+<!--                               <a href >动态动态动态动态</a>-->
+<!--                               <span class="rt">2019.1.8</span>-->
+<!--                           </li>-->
+<!--                            <li class="clearfix preli">-->
+<!--                                <a href >动态动态动态动态</a>-->
+<!--                                <span class="rt">2019.1.8</span>-->
+<!--                            </li>-->
+<!--                            <li class="clearfix preli">-->
+<!--                                <a href >动态动态动态动态</a>-->
+<!--                                <span class="rt">2019.1.8</span>-->
+<!--                            </li>-->
+<!--                            <li class="clearfix preli">-->
+<!--                                <a href >动态动态动态动态</a>-->
+<!--                                <span class="rt">2019.1.8</span>-->
+<!--                            </li>-->
+<!--                            <li class="lastli">-->
+<!--                                <a href class="z-sy-more">了解更多</a>-->
+<!--                            </li>-->
+<!--                            <li class="clearfix">-->
+<!--                                <a href class="lk"></a>-->
+<!--                            </li>-->
+
+<!--                        </ul>-->
+
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="sy-2"></div>-->
+<!--        <div class="sy-3"></div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;content end&ndash;&gt;-->
+
+<!--    &lt;!&ndash;footer&ndash;&gt;-->
+<!--    <div class="footer ">-->
+<!--        <div class="f-content clearfix w-container">-->
+<!--            <img class="phone lf " src="./images/f-img1.png ">-->
+<!--            <div class="f-help lf ">-->
+<!--                <a href=" ">关于我们</a>-->
+<!--                <span>|</span>-->
+<!--                <a href=" ">云能信息</a>-->
+<!--                <span>|</span>-->
+<!--                <a href=" ">新闻动态</a>-->
+<!--                <span>|</span>-->
+<!--                <a href=" ">权威发布</a>-->
+<!--            </div>-->
+<!--            <div class="f-drop lf ">-->
+<!--                <p class="tag ">友情链接</p>-->
+<!--                <ul class="f-drop-l ">-->
+<!--                    <li><a href="">1</a></li>-->
+<!--                    <li><a href="">1</a></li>-->
+<!--                    <li><a href="">1</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="ewm rt ">-->
+<!--                <img src="./images/ewm.png ">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="f-text ">-->
+<!--            <p><span>© 2018云南能投信息产业开发有限公司</span><span>版权所有 Copyright (C)</span><span>All Rights Reserved</span><span>滇ICP备13005863号</span></p>-->
+<!--            <p><span>地址：云南省昆明市西山区日新中路616号云南能投集团集控综合楼</span><span>电话：+86 0871-64980000</span><span>传真：+86 0871-64981111</span><span>邮箱：ynnt@cnyeig.com</span></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;footer end&ndash;&gt;-->
+<!--</body>-->
+
+
+</html>

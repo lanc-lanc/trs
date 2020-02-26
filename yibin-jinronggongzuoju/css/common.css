@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+ul,ol{list-style:none;}
+a{text-decoration:none;cursor: pointer;}
+img{border:0;vertical-align:top;}
+input,button{vertical-align:top;outline:none;border:none;}
+button{padding: 0;cursor: pointer;}
+button::-moz-focus-inner {padding: 0;}  /*for FireFox button 内置padding为0*/
+textarea{outline:none;border:none;resize:none;}
+input, textarea {box-sizing: content-box;outline: none;background: 0 0;font-family: "Microsoft YaHei"}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #999;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#999;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color:#999;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color:#999;
+}
+.rt{float:right;}
+.lf{float: left;}
+body{color: #000;font-family: "Microsoft YaHei";font-size: 0;}
+
+/*清除浮动*/
+.clearfix{*zoom:1;} /* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+table tr td,table{border-collapse:collapse;}
+/*通用样式*/
+
+
+/*tab*/
+
+
+/*hover*/
+
+
+
+/*padding*/
+.pt10{
+	padding-top: 10px;
+}
+.pt20{
+	padding-top: 20px;
+}
+.pt40{
+	padding-top: 40px;
+}
+.pt23{
+	padding-top: 23px;
+}
+.pt25{
+	padding-top: 25px;
+}
+.pt35{
+	padding-top: 35px;
+}
+.pb70{
+	padding-bottom: 70px;
+}
+.pb46{
+	padding-bottom: 46px;
+}
+.pb12{
+	padding-bottom: 12px;
+}
+.pb50{
+	padding-bottom: 50px;
+}
+.pb20{
+	padding-bottom: 20px;
+}
+
+
+/*margin*/
+.mt30{
+	margin-top: 30px;
+}
+.mt40{
+	margin-top: 40px;
+}
+.mt15{
+	margin-top: 15px;
+}
+.mt18{
+	margin-top: 18px;
+}
+.mt5{
+	margin-top: 5px;
+}
+.mt25{
+	margin-top: 25px;
+}
+.mt44{
+	margin-top: 44px;
+}
+.mt45{
+	margin-top: 45px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt50{
+	margin-top: 50px;
+}
+.mr30{
+	margin-right: 30px;
+}
+.mr14{
+	margin-right: 14px;
+}
+.mr0{
+	margin-right: 0px!important;
+}
+.mr40{
+	margin-right: 40px;
+}

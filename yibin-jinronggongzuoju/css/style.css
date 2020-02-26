@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+.w-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*头部*/
+.header{
+    height: 184px;
+    width: 100%;
+    background: url(../images/bg1.png) top center no-repeat;
+}
+.logo{
+    display: inline-block;
+    margin-top: 58px;
+}
+.header-con{
+    width: 419px;
+    margin-top: 62px;
+}
+.search-box{
+    width:419px;
+    height:50px;
+    background:rgba(255,255,255,0.96);
+    border:1px solid rgba(126, 184, 228, 1);
+    border-radius:25px;
+}
+.search-box input{
+    padding: 0 27px;
+    line-height: 50px;
+    width: 316px;
+}
+.search-box button{
+    height: 100%;
+    background: none;
+}
+.search-l{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 100%;
+}
+.search-l span,.search-l a{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+}
+.search-l a{
+    margin-right: 16px;
+}
+.search-l a:last-child{
+    margin-right: 0;
+}
+.search-l a:hover{
+    text-decoration: underline;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: #D74142;
+}
+.nav-l a{
+    display: inline-block;
+    width: 150px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-l a.cur,.nav-l a:hover{
+    background-color: #B23233;
+}
+.nav-l a img{
+    margin-top: 20px;
+    margin-right: 4px;
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*当前位置*/
+.local{
+    padding-top: 35px;
+    padding-bottom: 16px;
+}
+.local img{
+    margin-right: 12px;
+    margin-left: 18px;
+}
+.local span,.local a{
+    color: #333333;
+    font-size: 15px;
+    line-height: 16px;
+}
+.local a:hover{
+    font-weight: bold;
+}
+.local .arrow{
+    margin: 0 4px;
+}
+.local .cur{
+    color: #ea393d;
+}
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 152px;
+    min-width: 1200px;
+    background-color: #D74142;
+    padding-top: 20px;
+}
+.drop-down {
+    margin-left: 22px;
+    float: left;
+    width:220px;
+    height:41px;
+    background:#B23233;
+    position: relative;
+    border:1px solid rgba(255,255,255,1);
+}
+.drop-down:first-child {
+    margin-left: 0;
+}
+.drop-down .tag {
+    font-size: 12px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 41px;
+    padding: 0 12px;
+    background: url("../images/f-icon1.png") 190px center no-repeat;
+}
+.drop-down .tag:hover,.drop-lists li a:hover{
+    font-weight: bold;
+}
+.drop-lists {
+    border: 1px solid #fff;
+    display: none;
+    position: absolute;
+    bottom: 41px;
+    left: -1px;
+    width: 100%;
+    max-height: 90px;
+    overflow-y: auto;
+    background: #B23233;
+}
+.drop-lists li {
+    height: 30px;
+    line-height: 30px;
+}
+.drop-lists li a {
+    margin-left: 9px;
+    font-size: 12px;
+    color: #fff;
+}
+.f-last{
+    text-align: center;
+}
+.f-line{
+    width: 912px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.f-line .d a,.f-line .d span{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+}
+.f-line .d a:hover{
+    font-weight: bold;
+}
+.f-line .d span{
+    padding: 0 10px;
+}
+.f-last a{
+    vertical-align: top;
+}
+.f-last .a1{
+    display: inline-block;
+    margin-top: 24px;
+}
+.f-last .a2{
+    margin-top: 30px;
+    display: inline-block;
+}
+.f-last p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*概览*/
+.gl-main{
+    background: #fff;
+    padding: 0 15px;
+}
+.gl-main2{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+.gl-nav{
+    width: 260px;
+    margin-right: 24px;
+}
+.gl-nav-t{
+    height: 46px;
+    background: #D74142;
+}
+.gl-nav-t img{
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.gl-nav-t a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 46px;
+    vertical-align: middle;
+}
+.gl-nav-l,.gl-nav-l2{
+    border: 1px solid #eaeaea;
+    padding: 19px 17px 8px;
+    background: #fcfcfc;
+}
+.gl-nav-l a{
+    padding-left: 20px;
+    display: block;
+    height: 41px;
+    border: 1px solid #dbdbdb;
+    background: url(../images/icon7.png) 196px center no-repeat #fff;
+    color: #333333;
+    font-size: 15px;
+    line-height: 41px;
+    margin-bottom: 10px;
+}
+.gl-nav-l a.cur,.gl-nav-l a:hover{
+    color: #D74142;
+    font-weight: bold;
+    background: url(../images/icon7o.png) 196px center no-repeat #fff;
+}
+.gl-content{
+    width: 880px;
+}
+.gl-title{
+    height: 50px;
+    border-bottom: 3px solid #ededed;
+}
+.gl-title .tit{
+    display: inline-block;
+    padding: 0 16px;
+    color: #D74142;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.gl-con {
+    padding-top: 5px;
+}
+.gl-list li{
+    height: 47px;
+    border-bottom: 1px dashed #999999;
+    line-height: 47px;
+}
+.gl-list li a{
+    display: inline-block;
+    padding-left: 14px;
+    color: #333333;
+    font-size: 15px;
+    background: url(../images/icon9.png) left center no-repeat;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.gl-list li a:hover{
+    background: url(../images/icon9o.png) left center no-repeat;
+    color: #ea393d;
+}
+.gl-list li span{
+    display: inline-block;
+    float: right;
+    color: #999999;
+    font-size: 15px;
+    margin-right: 4px;
+}
+.gl-content .gl-list{
+    margin-bottom: 14px;
+}
+.page{
+    text-align: center;
+    padding-top: 20px;
+}
+.page span,.page a{
+    color: #333333;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 28px;
+}
+.page span.red{
+    color: #D74142;
+    margin: 0px 8px;
+}
+.page a{
+    line-height: 28px;
+    border: 1px solid #ebebeb;
+    margin: 0px 4px;
+}
+.page a:hover,.page a.cur{
+    color: #fff;
+    background: #D74142;
+}
+.page a.go:hover{
+    font-weight: bold;
+    color: #fff;
+}
+.page a.num{
+    width: 28px;
+}
+.page .fe{
+    border: none;
+    line-height: 28px;
+}
+.page .fe:hover{
+    color: #D74142;
+    background: none;
+}
+.page .pn{
+    width: 68px;
+}
+.page input{
+    padding: 0 4px;
+    width: 18px;
+    height: 26px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    margin: 0px 7px;
+}
+.page .go{
+    width: 60px;
+    height: 30px;
+    border: none;
+    background: #D74142;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 14px;
+}
+.page span.jump{
+    margin-left: 10px;
+}
+.page .first{
+    margin-left: 14px;
+}
