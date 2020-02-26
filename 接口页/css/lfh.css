@@ -1,0 +1,202 @@
+/*
+ * @Description: 接口页
+ * @Company:TRS
+ * @Date: 2020/1/14 10:05
+ * @LastEditors: lfh
+ */
+
+/*接口页1-内容*/
+.content {
+    width: 100%;
+}
+
+.content .title {
+    display: inline-block;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    max-width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.list li a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 44px;
+    color: #333333;
+    max-width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content ul.list {
+    list-style: inside;
+    font-size: 16px;
+    line-height: 44px;
+    margin-top: 10px;
+}
+
+.list li.cur a,
+.list li a:hover{
+    color: #0071b9;
+}
+
+
+/*接口页2-内容*/
+.tip_title{
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.tip {
+    border-left: 3px solid #e9ecef;
+    padding:6px 20px;
+}
+.blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    color: #636363;
+}
+
+.blockquote a{
+    color: #0071b9;
+}
+
+.h5{
+    font-size: 16px;
+    color: #111;
+    line-height: 30px;
+}
+
+.h5 span,
+.h5 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+}
+
+.code{
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.code code{
+    line-height: 1.8;
+    font-family: Menlo,Monaco,Consolas,Courier,monospace;
+    font-size: 12px;
+    padding: 18px 24px;
+    background-color: #fafafa;
+    border: 1px solid #eaeefb;
+    border-radius: 4px;
+}
+
+table.api{
+    font-size: 14px;
+    line-height: 36px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-left: none;
+    word-break: break-word;
+}
+
+table thead{
+    background: #fafafa;
+}
+
+table.api th{
+    text-align: left;
+    white-space: nowrap;
+    color: #333;
+    font-weight: 400;
+    padding: 8px;
+}
+table.api td{
+    color: #666;
+    padding: 0 10px;
+}
+    /*接口页3-内容*/
+.title span {
+    font-size: 16px;
+    color: #999;
+}
+
+code {
+    color: #0071b9;
+}
+
+.list3{
+    margin-top: 10px;
+}
+
+.list3 li {
+    border-bottom: 1px solid #e5e9ee;
+    padding: 15px 0;
+}
+
+.list3 li a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    max-width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list3 li p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    max-height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page {
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.page span,
+.page a {
+    color: #415569;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.page a {
+    box-sizing: border-box;
+    border-radius:3px;
+    background: #fafafa;
+    border:1px solid #E0E0E0;
+}
+
+.page a.pn:hover,
+.page a.cur,
+.page a.num:hover {
+    color: #fff;
+    background: #0071b9;
+}
+
+.page a.num {
+    width: 30px;
+    height: 30px;
+}
+
+.litext a:hover{
+    color: #0071b9;
+}
+

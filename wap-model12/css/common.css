@@ -1,0 +1,297 @@
+@charset 'utf-8';
+
+/******样式清除******/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a,
+span {
+  vertical-align: top;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+input,
+button,
+text {
+  vertical-align: top;
+  outline: none;
+  border: none;
+}
+button {
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+}
+textarea {
+  outline: none;
+  border: none;
+  resize: none;
+}
+input,
+textarea {
+  box-sizing: content-box;
+  outline: none;
+  background: 0 0;
+  font-family: "Microsoft YaHei";
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #acacac;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #acacac;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #acacac;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #acacac;
+}
+table tr td,
+table {
+  border-collapse: collapse;
+}
+body {
+  font-size: 0;
+  color: #000;
+  font-family: "Microsoft YaHei";
+}
+/*****通用样式******/
+/*清除浮动*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.db {
+  display: inline-block;
+}
+/*****边距调整****/
+.mt10 {
+  margin-top: 10px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+/****内容块居中***/
+.centerWidth{
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+
+/* 头部 */
+.header{
+  padding-top: .6rem;
+  padding-bottom: .3rem;
+  background: #1369c0;
+  position: relative;
+}
+.logo{
+  padding-left: .25rem;
+}
+.logo .img1 img{
+  width: 4.31rem;
+  height: .72rem;
+}
+.logo .img2 img{
+  width: .95rem;
+  height: .71rem;
+}
+.search-box{
+  width: 6.2rem;
+  height: .58rem;
+  background: url(../images/w12-bg3.png) center no-repeat;
+  background-size: 100% 100%;
+  line-height: .58rem;
+  margin: 0 auto;
+  margin-top: .32rem;
+}
+.search-box input{
+  padding-left: .32rem;
+  padding-right: .22rem;
+  height: .58rem;
+  color: #fff;
+  font-size: .22rem;
+  width: 5.2rem;
+}
+.search-box button{
+  vertical-align: middle;
+}
+.search-box button img{
+  width: .28rem;
+  height: .3rem;
+}
+.search-box input::-webkit-input-placeholder{
+  color: #fff;
+}
+.search-box input:-moz-placeholder{
+  color: #fff;
+}
+.search-box input::-moz-placeholder{
+  color: #fff;
+}
+.search-box input:-ms-input-placeholder{
+  color: #fff;
+}
+.index-main{
+	position: relative;
+}
+.header-nav{
+  position: absolute;
+  top: .6rem;
+  right: 0;
+  z-index: 999;
+  width: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.header-nav .tit{
+	display: inline-block;
+  color: #fff;
+  font-size: .26rem;
+  line-height: .3rem;
+  margin-top: .14rem;
+  cursor: pointer;
+  width: 1.1rem;
+}
+.header-nav .tit img{
+  width: .39rem;
+  height: .27rem;
+  margin-right: .1rem;
+}
+.header-nav-l{
+	position: absolute;
+	left: 1.1rem;
+	top: 0;
+  display: inline-block;
+  width: 4.2rem;
+  background: #4d4b4b;
+  padding: 0 .22rem;
+  box-sizing: border-box;
+}
+.header-nav-l li{
+	height: 1rem;
+	line-height: 1rem;
+	color: #fff;
+	font-size: .28rem;
+	border-bottom: 1px solid #707070;
+	text-align: center;
+}
+.header-nav-l li a{
+	display: block;
+	color: #fff;
+}
+/* 回到顶部 */
+.go-top {
+    /*display: none;*/
+    width: auto;
+    position: fixed;
+    bottom: 20%;
+    right: .2rem;
+    cursor: pointer;
+    z-index: 998;
+    text-align: center;
+}
+.section2 .go-top{
+	position: absolute;
+}
+.go-top img {
+    width: .88rem;
+    height: .88rem;
+}
+.go-top p{
+	color: #1369c0;
+	font-size: .24rem;
+
+}
+/* 底部 */
+.footer{
+	background: #1369c0;
+}
+.f-list{
+	text-align: center;
+	padding-top: .24rem;
+	padding-bottom: .2rem;
+	border-bottom: 2px solid #0055ab;
+}
+.f-list span,.f-list a{
+	display: inline-block;
+	color: #fff;
+	font-size: .26rem;
+}
+.f-list span{
+	margin: 0 .26rem;
+}
+.f-text{
+	padding: .2rem .4rem;
+	line-height: .36rem;
+	color: #fff;
+	font-size: .22rem;
+}

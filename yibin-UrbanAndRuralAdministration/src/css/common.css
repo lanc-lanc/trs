@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input{
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    color: #2177bc;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    font-size: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+input,
+button,
+text {
+    vertical-align: baseline;
+    outline: none;
+    border: none;
+}
+
+input {
+    box-sizing: content-box;
+    outline: none;
+    background: #fff;
+    font-family: "Microsoft YaHei"
+}
+button {
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*for FireFox button 内置padding为0*/
+button::-moz-focus-inner {
+    padding: 0;
+}
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #acacac;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #acacac;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #acacac;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #acacac;
+}
+/*清除浮动*/
+
+.clear-fix {
+    *zoom: 1;
+}
+
+
+/* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+
+.clear-fix:before,
+.clear-fix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clear-fix:after {
+    clear: both;
+}

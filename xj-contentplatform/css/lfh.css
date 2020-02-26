@@ -1,0 +1,114 @@
+/*
+  * @Description:   
+  * @Company: TRS  
+  * @Date: 2020-01-14 
+  * @LastEditors: lfh 
+ */
+
+ /* 3_0专题主体部分 */
+
+ .lfh_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .content_box {
+    display: block;
+    width:288px;
+    height:200px;
+    background:#fff;
+    border-radius:6px;
+    margin-top: 16px;
+    box-sizing: border-box;
+    position: relative;
+ }
+
+ .content_box img {
+     display: inline-block;
+     width: 100%;
+     height: 100%;
+ }
+
+ .zt_mark {
+     width: 100%;
+     height: 55px;
+     background: url(../images/mark.png) no-repeat center;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     font-size: 14px;
+     padding: 0 20px;
+     line-height: 55px;
+     color: #fff;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     box-sizing: border-box;
+ }
+
+ .content_box:hover .zt_mark {
+     text-decoration: underline;
+ }
+
+ .jx_icon {
+     width: 35px;
+     height: 36px;
+     position: absolute;
+     right: 20px;
+     top: 0;
+     background: url(../images/icon_jx.png) no-repeat center
+ }
+
+ /* 6_0图片 */
+ .pictures .lfh_img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+
+ .pictures .lfh_img .lfh_imgbg{
+    width:290px;
+    height:215px;
+    border-radius: 6px;
+    overflow: hidden;
+ }
+
+ .img_yes{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    border-radius:3px;
+    background: url(../images/img_yes.png)no-repeat center;
+ }
+
+ /* 类型选择 */
+
+ .lfh_type .select_icon1{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #C7C7C7;
+    border-radius:3px;
+    line-height: 48px;
+    box-sizing: border-box;
+    margin-top: 13px
+ }
+
+ .lfh_type a.ztlb_search_btn:hover{
+    background: #d90514;
+    color: #fff
+ }
+
+
+ .lfh_type .cur .select_icon1{
+    border: 1px solid #d90514;
+    background: url(../images/icon_yes.png) no-repeat center
+ }
+
+
+ /* 媒体页面的媒体部分 */
+ .lfh_mtym{
+    background: #fff !important;
+ }

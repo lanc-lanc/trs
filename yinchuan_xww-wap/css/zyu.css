@@ -1,0 +1,213 @@
+.clearfix{
+    clear:both;
+}
+.zyu-jtszb{
+    width: 100%;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+}
+.zyu-pd{
+padding: 0.2rem;
+}
+.zyu-jtszb-hd{
+width: 100%;
+height: 1.1rem;
+}
+.zyu-jtszb-hd span{
+    font-size: 0.38rem;
+line-height:1.1rem;
+color: #333333;
+font-family: "Ping Fang";
+font-weight: bold;
+}
+
+.zyu-jtszb-bd{
+width: 100%;
+}
+.zyu-left{
+    float: left;
+}
+.zyu-right{
+    float:right;
+}
+.zyu-left, .zyu-right{
+    width: 3.3rem;
+height: 4.3rem;
+border-radius:0.12rem;
+box-shadow: 0.02rem 0rem 0.21rem rgba(40,74,111,0.2);
+background-color: #ffffff;
+text-align: center;
+}
+.zyu-jtszb-bd img{
+    display: inline-block;
+    width: 2.4rem;
+    height: 3.3rem;
+
+    margin: auto;
+    margin-top: 0.3rem;
+}
+.zyu-jtszb-bd p{
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    color: #333333;
+    font-family: "Ping Fang";
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+.zyu-ksyy{
+    width: 100%;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+}
+.zyu-ksyy-hd{
+    width: 100%;
+    height: 1rem;
+}
+.zyu-ksyy-hd span{
+    font-size: 0.38rem;
+    line-height:1.1rem;
+    color: #333333;
+    font-family: "Ping Fang";
+    font-weight: bold;
+}
+.zyu-ksyy-bd{
+   width: 100%;
+height: 2.3rem;
+border-radius: 0.12rem;
+box-shadow: 0.02rem 0rem 0.21rem rgba(40,74,111,0.2);
+background-color: #ffffff;
+margin: auto;
+}
+.zyu-ksyy-bd ul{
+    width: 100%;
+height: 100%;}
+.zyu-ksyy-bd li{
+    display: inline-block;
+    width: 1.4rem;
+    height: 100%;
+    margin-left:0.3rem ;
+    background-size: 0.75rem 0.7rem;
+}
+.zyu-ksyy-bd li p{
+    font-size: 0.24rem;
+line-height: 0.48rem;
+color: #333333;
+font-family: "Ping Fang";
+font-weight: 500;
+text-align: center;
+margin-top: 1.5rem;
+}
+.zyu-1{
+    background:url('../images/icon_r2.png')no-repeat center 0.52rem;
+}
+.zyu-2{
+    background:url('../images/icon_r3.png')no-repeat center 0.52rem;
+}
+.zyu-3{
+    background:url('../images/icon_r1.png')no-repeat center 0.52rem;
+}
+ .zyu-4{
+    background:url('../images/icon_r4.png')no-repeat center 0.52rem;
+}
+.zyu-bq{
+    width: 6.9rem;
+    margin: auto;
+    text-align: center;
+}
+.zyu-other-link{
+  height: 0.7rem;
+  box-sizing: border-box;
+  vertical-align:center;
+  margin: auto;
+  margin-top: 0.3rem;
+  padding-top: 0.2rem;
+}
+.zyu-other-link li{
+    box-sizing: border-box;
+    width: 1.65rem;
+    display: inline-block;
+    height: 0.25rem;
+    text-align: center;
+    border-right: 0.02rem #B5B5B5 solid;
+}
+.zyu-other-link li:last-child{
+
+    border-right: none;
+}
+.zyu-other-link li a{
+
+    font-size: 0.24rem;
+line-height: 0.25rem;
+
+color: #333333;
+font-family: "Ping Fang";
+font-weight: 500;
+text-align: center;
+}
+.zyu-bq p {
+
+    font-size:0.2rem;
+    line-height: 0.48rem;
+    color: #666666;
+    font-family: "Ping Fang";
+    font-weight: 500;
+    text-align: center;
+}
+.zyu-tab-box{
+    max-width: 7.5rem;
+    box-shadow: 0rem -0.05rem 0.08rem rgba(185,185,185,0.4);
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.zyu-tab-box li{
+    box-sizing: border-box;
+    width: 2.5rem;
+    display: inline-block;
+    text-align: center;
+    height: 1.01rem;
+    background-size: 0.4rem 0.38rem;
+    padding-top: .55rem;
+    box-sizing: border-box;
+    padding-bottom: .06rem;
+}
+.zyu-tab-box li.cur{
+    background-size: 0.4rem 0.38rem;
+}
+ .zyu-11{
+    background:url('../images/icon_h1.png')no-repeat center 0.15rem;
+
+}
+.zyu-12 {
+    background:url('../images/icon_h2.png')no-repeat center 0.15rem;
+
+}
+.zyu-13 {
+    background:url('../images/icon_h3.png')no-repeat center 0.15rem;
+
+}
+.zyu-11.cur{
+    background:url('../images/icon_1.png')no-repeat center 0.15rem;
+
+}
+.zyu-12.cur {
+    background:url('../images/icon_2.png')no-repeat center 0.15rem;
+
+}
+.zyu-13.cur {
+    background:url('../images/icon_3.png')no-repeat center 0.15rem;
+
+}
+.zyu-tab-box li.cur{
+    background-color: #fff;
+}
+.zyu-tab-box p{
+    font-size:0.2rem;
+    color: #333333;
+    line-height: .4rem;
+    font-family: "Ping Fang";
+    font-weight: bold;
+    text-align: center;
+}

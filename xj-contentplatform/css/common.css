@@ -1,0 +1,198 @@
+@charset 'utf-8';
+
+/*
+  * @Description: 主入口文件  
+  * @Company: TRS  
+  * @Date: 2019-12-10 10:05:57 
+ * @LastEditors  : taojunhao
+ */
+
+
+/******样式清除******/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a,
+span {
+    vertical-align: top;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input,
+button,
+text {
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+input,
+textarea {
+    box-sizing: content-box;
+    outline: none;
+    background: 0 0;
+    font-family: "Microsoft YaHei";
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #acacac;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #acacac;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #acacac;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #acacac;
+}
+
+table tr td,
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font-size: 0;
+    color: #000;
+    font-family: "Microsoft YaHei";
+}
+
+
+/*****通用样式******/
+
+
+/*清除浮动*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.db {
+    display: inline-block;
+}
+
+
+/*****边距调整****/
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+
+/****内容块居中***/
+
+.centerWidth {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.centerwidth {
+    width: 1200px;
+    margin: 0 auto;
+}

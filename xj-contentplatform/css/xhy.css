@@ -1,0 +1,167 @@
+/*
+  * @Description: 主入口文件  
+  * @Company: TRS  
+  * @Date: 2020-01-13 18:10:38 
+  * @LastEditors: xhy 
+ */
+
+
+/***最新图片***/
+
+.latest-pictures {
+    width: 100%;
+    height: 340px;
+}
+
+.pictures {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pictures a {
+    position: relative;
+    display: inline-block;
+}
+
+.pictures a:hover p {
+    color: #ca2437;
+}
+
+.atitbg {
+    width: 710px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 68px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+    background: url(../images/atitbg.png) repeat-x left bottom;
+}
+
+.atitbg p {
+    max-width: 90%;
+}
+
+.atitlf {
+    width: 70%;
+}
+
+.atitlf p.atitp1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.atitrt {
+    margin-top: 35px;
+    background: url(../images/lpbg.png) no-repeat;
+    padding: 2px 0 2px 30px;
+}
+
+.a0 {
+    margin-right: 20px;
+    width: 712px;
+}
+
+.alf {
+    width: 224px;
+}
+
+.alf a .atitbg {
+    width: 100%;
+}
+
+.alf a .atitbg p,
+.a4 .atitbg p {
+    margin-top: 35px;
+}
+
+.alf a:first-child {
+    margin-bottom: 20px;
+}
+
+.a4 {
+    margin-left: 20px;
+}
+
+.a4 .atitbg {
+    width: 224px;
+}
+
+.carbtns1 span {
+    z-index: 5;
+    top: 150px;
+}
+
+.carbtns1 span.pre1 {
+    left: 20px;
+    background: url(../images/pre1.png) no-repeat;
+}
+
+.carbtns1 span.pre1:hover {
+    background: url(../images/pre1cur.png) no-repeat;
+}
+
+.carbtns1 span.next1 {
+    right: 20px;
+    background: url(../images/next1.png) no-repeat;
+}
+
+.carbtns1 span.next1:hover {
+    background: url(../images/next1cur.png) no-repeat;
+}
+
+
+/***最新图片1****/
+
+.xx-bg {
+    background: #f6f6f6;
+    padding-top: 30px;
+}
+
+.pictures1 {
+    display: inline-block;
+    position: unset;
+}
+
+.pictures1 a {
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+
+.pictures1 a.art0 {
+    margin-right: 0;
+}
+
+.pictures1 a:hover p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.pictures1 .imgbg {
+    width: 225px;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    border-radius: 5px;
+}
+
+.pictures1 .atitbg {
+    width: 100%;
+    height: 43px;
+    background: url(../images/atitbg.png) no-repeat left bottom;
+    border-bottom-right-radius: 5px;
+}
+
+.pictures1 .atitbg p {
+    margin-top: 13px;
+}
+
+.atitrt {
+    margin-top: 15px;
+}

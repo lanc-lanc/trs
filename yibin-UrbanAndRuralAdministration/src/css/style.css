@@ -1,0 +1,579 @@
+@charset "utf-8";
+
+/*头部样式*/
+
+.header {
+    min-width: 1200px;
+    width: 100%;
+    height: 226px;
+    background: url("../img/lfh_hbg_01.jpg")top center no-repeat;
+}
+
+.header .top {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.header .top h6 {
+    height: 40px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+.header .top {
+    color: #666666;
+}
+
+.header .top .top-l-text {
+    float: left;
+}
+
+.header .top .top-r-text {
+    float: right;
+}
+
+.header .top .top-content {
+    position: absolute;
+    height: 150px;
+    width: 1200px;
+    top: 25px;
+}
+
+.top .top-content > a {
+    width: 661px;
+    height: 84px;
+    position: relative;
+    top: 50%;
+    margin-top: -42px;
+    float: left;
+}
+
+.top .bg_img {
+    position: relative;
+    margin-left: 450px;
+    width: 578px;
+    height: 174px;
+    background: url("../img/lfh_bg_03.png") top center no-repeat;
+}
+
+/*搜索框*/
+.top .h-search {
+    width: 285px;
+    height: 50px;
+    position: relative;
+    float: right;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.top .h-search input {
+    position: absolute;
+    height: 100%;
+    width: 235px;
+    line-height: 50px;
+    font-size: 12px;
+    border: 1px solid #d5dee8;
+    border-radius: 5px;
+    color: #999999;
+    box-sizing: border-box;
+    padding: 0 40px;
+    opacity: 0.8;
+}
+
+.top .h-search span {
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    background: url("../img/lfh_h_search_o3.png") center no-repeat;
+}
+/*搜索按钮*/
+.top .h-search button {
+    position: absolute;
+    width: 65px;
+    height: 100%;
+    margin-left: 220px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 50px;
+    background-color: #2177bc;
+    cursor: pointer;
+}
+
+/*导航栏*/
+.nav {
+    width: 100%;
+    min-width:1200px;
+    margin-top: -46px;
+    height: 60px;
+    background-color: #2177bc;
+}
+
+.nav > ul {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav > ul > li {
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    float: left;
+    cursor: pointer;
+}
+
+.nav > ul > li a {
+    color: #fff;
+}
+
+.nav > ul > li > span {
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    margin-left: 5px;
+    background: url("../img/lfh_n_arr.png");
+}
+
+.menu2 > ul {
+    display: none;
+    position: relative;
+    background-color: #58b;
+    z-index: 999;
+}
+
+.menu2 > ul > li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+/*hover*/
+.menu2:hover ul {
+    display: block;
+}
+
+.nav > ul > li:hover {
+    background-color: #58b;
+}
+
+.menu2 > ul > li:hover {
+    background-color: #2177bc;
+}
+
+/*主体内容样式*/
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+    overflow: hidden;
+}
+
+/*位置定位*/
+.content .position {
+    width: 1200px;
+    height: 50px;
+
+}
+
+.content .position span,
+.content .position a{
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.content .position a {
+    color: #333;
+}
+
+.content .position .used {
+    color: #2177bc;
+}
+
+.content .position .pos-pos {
+    display: inline-block;
+    position: relative;
+    width: 11px;
+    height: 15px;
+    top: 3px;
+    padding-right: 5px;
+    background: url("../img/lfh_c_pos.png") no-repeat;
+}
+
+.content .position a:hover {
+    color: #2177bc;
+}
+/*领导信箱*/
+.content .con-left {
+    width: 270px;
+    height: 750px;
+    border-top: 2px solid #2177bc;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    float: left;
+}
+
+.content .con-left h3 {
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 60px;
+    color: #2177bc;
+}
+
+.content .con-left h4 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.content .write,
+.query {
+    width: 235px;
+    height: auto;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.content .write .wri-img,
+.query .que-img {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.content .write .wri-arr,
+.query .que-arr {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    margin-left: 85px;
+}
+
+.write {
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.con-left .write h4>a {
+    color: #333;
+}
+
+.content .write .wri-img {
+    background: url("../img/lfh_c_let_03.png") no-repeat;
+
+}
+
+.content .write .wri-arr {
+    background: url("../img/lfh_c_arr_06.png");
+}
+
+.query {
+    background: #2177bc;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.write, .query h4>a {
+    color: #fff;
+}
+
+.content .query .que-img {
+    background: url("../img/lfh_c_let_06.png") no-repeat;
+}
+
+.content .query .que-arr {
+    background: url("../img/lfh_c_arr_03.png");
+}
+
+/*hover*/
+li.write:hover {
+    background: #2177bc;
+}
+
+li.write:hover h4>a {
+    color: #fff;
+}
+
+li.write:hover .wri-img {
+    background: url("../img/lfh_c_let_06.png") no-repeat;
+}
+
+li.write:hover .wri-arr {
+    background: url("../img/lfh_c_arr_03.png");
+}
+
+/*信件查询*/
+.content .con-right {
+    width: 920px;
+    height: 750px;
+    float: left;
+}
+
+.con-right .let-btn {
+    width: 900px;
+    height: 40px;
+    margin-left: 20px;
+    border-bottom: 1px solid #2177bc;
+}
+
+.con-right .let-btn a{
+    display: inline-block;
+    min-width: 105px;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 10px;
+    background: #2177bc;
+    color: #fff;
+}
+.con-right .let-btn button {
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.con-right .let-query {
+    width: 900px;
+    height: 80px;
+    margin-left: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.con-right .let-query span {
+    display: inline-block;
+    color: #333;
+    line-height: 80px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.con-right .let-query input {
+    width: 230px;
+    height: 40px;
+    margin-left: 5px;
+    line-height: 40px;
+    padding: 0 20px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.con-right .let-query button {
+    height: 40px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.con-right ul.con-text {
+    margin-left: 20px;
+    color: #444;
+}
+
+.con-right ul.con-text li {
+    height: 47px;
+    width: 900px;
+    font-size: 16px;
+    line-height: 47px;
+    border-bottom: 1px dotted #e5e5e5;
+    cursor: pointer;
+}
+
+.con-right ul.con-text li a {
+    display: inline-block;
+    width: 700px;
+    height: 100%;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.con-text span {
+    display: inline-block;
+    height: 47px;
+    text-align: center;
+}
+
+.con-text span.dot {
+    overflow: hidden;
+    width: 24px;
+}
+
+.con-text span.date {
+    width: auto;
+    float: right;
+    margin-right: 50px;
+}
+
+ul.con-text li:hover a {
+    color: #2177bc;
+}
+/*换页*/
+.con-right .con-f {
+    width: 900px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con-right .con-f .turn-page {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+}
+.con-right .turn-page ul {
+    float: left;
+    height: 30px;
+    width: 420px;
+    margin: 0;
+}
+
+.con-right .turn-page li {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.con-right .turn-page span {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+}
+
+.con-right .turn-page .p-turn {
+    width: 250px;
+    display: inline-block;
+    float: left;
+}
+
+.turn-page .p-turn span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.p-turn input {
+    width: 40px;
+    height: 30px;
+    margin: 0 10px;
+    padding: 0 10px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.p-turn button {
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+/*hover*/
+
+.turn-page li:hover {
+    background: #2177bc;
+}
+
+.turn-page li:hover a {
+    color: #fff;
+}
+/*页脚*/
+.footer {
+    position: relative;
+    min-width: 1200px;
+    width: 100%;
+    height: 174px;
+    margin-top: 40px;
+    padding: 0 auto;
+    border-top: 2px solid #e3e3e3;
+    background: #f6f6f6;
+}
+
+.footer .lfh-f {
+    position: absolute;
+    width: 800px;
+    height: 74px;
+    margin-top: 50px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+.footer .lfh-f img.dz {
+    display: inline-block;
+    float: left;
+    width: 52px;
+    height: 64px;
+    margin: 5px 0;
+}
+
+.footer .lfh-f .f-con {
+    width: 550px;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 44px;
+    float: left;
+}
+
+.f-con .con-top {
+    color: #333;
+}
+
+.f-con .top-rig,
+.bot-rig {
+    float: right;
+}
+
+.f-con .con-bot {
+    color: #2177bc;
+}
+
+.f-con .bot-mid {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.footer .lfh-f img.zc {
+    display: inline-block;
+    float: right;
+    width: 110px;
+    height: 55px;
+    margin: 9px 0;
+}

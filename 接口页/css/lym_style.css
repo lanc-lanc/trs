@@ -1,0 +1,171 @@
+.lym_style {
+	font-size: 14px;
+}
+
+.lym-top {
+	height: 158px;
+	width: 100%;
+	background: #fbfbfb;
+}
+	
+.lym-top-title {
+	height: 58px;
+	line-height: 58px;
+	background: #0071b9;
+}
+
+.lym-top-title span {
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	margin-left: 30px;
+}
+
+.lym-top-title button {
+	width: 92px;
+	height: 40px;
+	float: right;
+	border-radius: 3px;
+	background: #fff;
+	margin: 9px 20px;
+	font-size: 14px;
+	line-height: 40px;
+}
+	
+.lym-top-search {
+	width: 598px;
+	height: 46px;
+	border: 1px solid #e5e5e5;
+	border-radius: 24px;
+	margin: 26px auto;
+	background: #fff;
+}
+
+.lym-top-search input {
+	height: 46px;
+	line-height: 46px;
+	width: 490px;
+	padding: 0 20px;
+	background: url(../images/top_line.png) no-repeat right center;
+}
+
+.lym-top-search a {
+	display: inline-block;
+	width: 68px;
+	height: 46px;
+	border-radius: 0 24px 24px 0;
+	background: #fff url(../images/top_search.png) no-repeat center;
+}
+	
+.lym-top-search a:hover {
+	background: #0071b9 url(../images/top_search_hover.png) no-repeat center;
+
+}
+
+.lym-con {
+	/* background: red; */
+	padding: 20px 0;
+}
+
+.lym-con-lf {
+	width: 240px;
+	border: 1px solid #e5e9ee;
+}
+.drop>p {
+	display: block;
+	height: 38px;
+	border-bottom: 1px solid #e5e9ee;
+	background: #e7f0f9;
+	color: #185694;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 39px;
+	padding-left: 20px;
+}
+
+.gkml-item {
+	height: 615px;
+	overflow: auto;
+    text-align: left;
+}
+
+.gkml-list>li ul {
+    display: none;
+}
+
+.gkml-list>li{
+	padding-left: 20px;
+}
+.gkml-list>.lym-cur ul{
+	display: block;
+}
+.gkml-title {
+    line-height: 40px;
+	cursor: pointer;
+	/* padding-left: 20px; */
+}
+
+.gkml-title .lable {
+    display: inline-block;
+    width: 8px;
+    height: 40px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.gkml-title a .fist-title {
+	font-weight: bold;
+}
+/*修改滚动条样式*/
+.gkml-item::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+  /**/
+}
+.gkml-item::-webkit-scrollbar-track{
+  /* background: rgb(239, 239, 239); */
+  background: #f3f3f3;
+  border-radius:0px;
+  margin-right: 4px;
+
+ }
+.gkml-item::-webkit-scrollbar-thumb{
+  background: #f3f3f3;
+  border-radius:4px;
+  margin-right: 4px;
+}
+.gkml-item::-webkit-scrollbar-thumb:hover{
+  /* background: #333; */
+}
+.gkml-item::-webkit-scrollbar-corner{
+  background: #179a16;
+  margin-right: 4px;
+}
+.gkml-title .lable.plus {
+    background: url(../images/lf_icon1.png) left center no-repeat;
+}
+
+.gkml-title .lable.cut {
+	background: url(../images/lf_icon2.png) left center no-repeat;
+}
+
+.gkml-link {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.gkml-link .depart {
+    line-height: 1;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+.lym-cur1{
+	border-right: 5px solid #0071b9;
+}
+.gkml-list li .gkml-title:hover {
+	border-right: 5px solid #0071b9;
+}
+.lym-con-rt {
+	width: 900px;
+}

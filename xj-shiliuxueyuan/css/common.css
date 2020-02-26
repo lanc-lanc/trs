@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333
+}
+
+
+/****a标签hover效果******/
+
+.litext a:hover {
+    color: #ed1b24;
+    font-weight: bold;
+}
+
+.singlea:hover {
+    color: #ed1b24;
+    font-weight: bold;
+}
+
+a,
+span {
+    vertical-align: top;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input,
+button,
+text {
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+}
+
+
+/*for FireFox button 内置padding为0*/
+
+textarea {
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+input,
+textarea {
+    box-sizing: content-box;
+    outline: none;
+    background: 0 0;
+    font-family: "Microsoft YaHei"
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #acacac;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #acacac;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #acacac;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #acacac;
+}
+
+table tr td,
+table {
+    border-collapse: collapse;
+}
+
+
+/* 可任意设置td,tr,table的边框而不会重合*/
+
+body {
+    font-size: 0;
+    color: #000;
+    font-family: "Microsoft YaHei";
+}
+
+
+/****************通用样式*****************/
+
+
+/*清除浮动*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.db {
+    display: inline-block;
+}
+
+
+/*****图标***/
+
+.pic a img {
+    transition: all 0.8s ease;
+}
+
+.pic a:hover img {
+    transform: rotateY(360deg);
+}
+
+.picb a img {
+    transition: all 0.8s ease;
+}
+
+.picb a:hover img {
+    transform: scale(0.95);
+}
+
+.pics a img {
+    transition: all 0.8s ease;
+}
+
+.pics a:hover img {
+    transform: scale(0.9);
+}

@@ -1,0 +1,14 @@
+{
+  "name": "yibin-urban-and-rural",
+  "version": "1.0.0",
+  "description": "\u001b[D\u001b[Yibin Housing Urban-Rural Construction and Urban Administration Bureau",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yibin"
+  ],
+  "author": "liufahenzy",
+  "license": "ISC"
+}

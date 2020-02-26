@@ -1,0 +1,149 @@
+/* 通用样式 */
+.overflows {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 热点专题部分 */
+.lym-rd {
+	padding: 0 0.1rem;
+    margin-top: 0.3rem;
+}
+.lym-rd .lym-head {
+	margin-top: .12rem;
+	color: #333;
+}
+.lym-rd span {
+	font-size: .38rem;
+    font-weight: 500;
+}
+.lym-rd .lym-head {
+	height: .94rem;
+	line-height: .94rem;
+	border-bottom: .01rem solid #dcdcdc;
+}
+/* .lym-rd .lym-head a {
+	display: inline-block;
+	width: 1.6rem;
+	height: 100%
+} */
+
+.lym-head .lym_tit {
+    font-weight: bold;
+}
+.lym-rd .lym-head a span {
+	font-size: .26rem;
+	padding-left: .12rem;
+}
+.lym-rd .lym-head a img {
+	width: 100%;
+	height: 100%;
+    vertical-align: baseline;
+}
+.lym-rd .lym-head a span:last-child {
+display: inline-block;
+/* margin-top: .36rem; */
+	width: .13rem;
+	height: .22rem;
+}
+
+.lym-rd .lym-head a span:last-child img {
+	width: 100%;
+	height: 100%;
+}
+
+.lym-rd .lym-item li p {
+	color: #333;
+	width: 100%;
+	font-size: .3rem;
+}
+.lym-rd .lym-item li p.lym-circle {
+	font-size: .48rem;
+	color: #aaa;
+}
+.lym-rd .lym-item li p.lym-circle a {
+	padding-left: .13rem;
+}
+.lym-rd .lym-item li a {
+	font-size: .3rem;
+}
+
+.lym-rd .lym-item ul li {
+	height: .75rem;
+	line-height: .75rem;
+	border-bottom: .01rem solid #dcdcdc;
+	list-style: circle;
+}
+
+.lym-zt .lym-head{
+	border-bottom: none;
+}
+.lym-ztimg a {
+	display: block;
+	width: 6.9rem;
+	height: 1.58rem;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	overflow: hidden;
+}
+.lym-ztimg a img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 轮播图 */
+
+.lym-point {
+	text-align: center;
+	padding-top: .2rem;
+}
+.lym-point span {
+	width: .1rem;
+	height: .1rem;
+	border-radius: 50%;
+	background: #bfbfbf;
+}
+
+.lym-point span.swiper-pagination-bullet-active {
+    background: #f44b50;
+}
+
+/* 图片中心部分 */
+
+.lym-tpxq-item {
+	height: 2.64rem;
+}
+
+.lym-tpxq-item ul {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.lym-tpxq-item ul li {
+	display: inline-block;
+	width: 2.8rem;
+	height: 2.64rem;
+	margin-right: .3rem;
+	/* float: none; */
+}
+
+.lym-tpxq-item ul li a {
+	display: block;
+	height: 1.96rem;
+	width: 2.8rem;
+	overflow: hidden;
+}
+
+.lym-tpxq-item ul li a img {
+	height: 100%;
+	width: 100%;
+    object-fit: cover;
+}
+
+.lym-tpxq-item ul li p {
+	font-size: .24rem;
+	width: 2.6rem;
+	color: #333;
+	line-height: .7rem;
+	padding: 0 .1rem;
+}
